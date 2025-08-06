@@ -1,0 +1,1614 @@
+﻿Log file open, 07/29/25 11:56:14
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogProfilingDebugging: Loading WinPixEventRuntime.dll for PIX profiling (from ../../../Engine/Binaries/ThirdParty/Windows/WinPixEventRuntime/x64).
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogWindows: Started CrashReportClient (pid=31004)
+LogWindows: Custom abort handler registered for crash reporting.
+LogInit: Display: Running engine for game: d_b
+LogCore: UTS: Unreal Trace Server launched successfully
+LogTrace: Initializing trace...
+LogCore: Display: Requested channels: 'cpu,gpu,frame,log,bookmark,screenshot,region'
+LogTrace: Display: Control listening on port 40048
+LogTrace: Finished trace initialization.
+LogCsvProfiler: Display: Metadata set : platform="Windows"
+LogCsvProfiler: Display: Metadata set : config="Development"
+LogCsvProfiler: Display: Metadata set : buildversion="++UE5+Release-5.6-CL-43139311"
+LogCsvProfiler: Display: Metadata set : engineversion="5.6.0-43139311+++UE5+Release-5.6"
+LogCsvProfiler: Display: Metadata set : os="Windows 11 (24H2) [10.0.26100.3476] "
+LogCsvProfiler: Display: Metadata set : cpu="AuthenticAMD|AMD Ryzen 9 5950X 16-Core Processor"
+LogCsvProfiler: Display: Metadata set : pgoenabled="0"
+LogCsvProfiler: Display: Metadata set : pgoprofilingenabled="0"
+LogCsvProfiler: Display: Metadata set : ltoenabled="0"
+LogCsvProfiler: Display: Metadata set : asan="0"
+LogCsvProfiler: Display: Metadata set : commandline="" "C:/Users/wb.chenyankai01/Documents/Unreal Projects/d_b 5.6/d_b.uproject"""
+LogCsvProfiler: Display: Metadata set : loginid="6f87578147f2a8ca6641668e2afcbda9"
+LogCsvProfiler: Display: Metadata set : llm="0"
+LogStats: Stats thread started at 0.851420
+LogCsvProfiler: Display: Metadata set : systemresolution.resx="1280"
+LogCsvProfiler: Display: Metadata set : systemresolution.resy="720"
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +8:00, Platform Override: ''
+LogInit: Session CrashGUID >====================================================
+         Session CrashGUID >   UECC-Windows-0D49934F48FB7BD78A56C3A1357584F8
+         Session CrashGUID >====================================================
+LogConfig: No local boot hotfix file found at: [../../../../../../Users/wb.chenyankai01/Documents/Unreal Projects/d_b 5.6/Saved/PersistentDownloadDir/HotfixForNextBoot.txt]
+LogAudio: Display: Pre-Initializing Audio Device Manager...
+LogAudio: Display: AudioInfo: 'OPUS' Registered
+LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+LogAudio: Display: AudioInfo: 'OGG' Registered
+LogAudio: Display: AudioInfo: 'ADPCM' Registered
+LogAudio: Display: AudioInfo: 'PCM' Registered
+LogAudio: Display: AudioInfo: 'BINKA' Registered
+LogAudio: Display: AudioInfo: 'RADA' Registered
+LogAudio: Display: Audio Device Manager Pre-Initialized
+LogPluginManager: Looking for build plugins target receipt
+LogPluginManager: Unable to find target receipt in path: ../../../../../../Users/wb.chenyankai01/Documents/Unreal Projects/d_b 5.6/Binaries/Win64/*.target
+LogConfig: Display: Loading IOS ini files took 0.13 seconds
+LogConfig: Display: Loading Android ini files took 0.13 seconds
+LogConfig: Display: Loading VulkanPC ini files took 0.13 seconds
+LogConfig: Display: Loading Mac ini files took 0.14 seconds
+LogAssetRegistry: Warning: PlatformFileJournal is not available on volume 'E:'. AssetRegistry discovery of files on this volume will be uncached. Unavailability reason:
+	CreateFile failed to open for reading FileJournal on volume 'E:'. GetLastError == 2 (0x00000002) (系统找不到指定的文件。)
+LogAssetRegistry: Display: Asset registry cache read as 88.2 MiB from ../../../../../../Users/wb.chenyankai01/Documents/Unreal Projects/d_b 5.6/Intermediate/CachedAssetRegistry_0.bin.
+LogPluginManager: Found matching target receipt: ../../../Engine/Binaries/Win64/UnrealEditor.target
+LogPluginManager: Looking for enabled plugins target receipt
+LogPluginManager: Unable to find target receipt in path: ../../../../../../Users/wb.chenyankai01/Documents/Unreal Projects/d_b 5.6/Binaries/Win64/*.target
+LogConfig: Display: Loading TVOS ini files took 0.17 seconds
+LogConfig: Display: Loading Windows ini files took 0.17 seconds
+LogConfig: Display: Loading VisionOS ini files took 0.17 seconds
+LogConfig: Display: Loading Unix ini files took 0.17 seconds
+LogConfig: Display: Loading Linux ini files took 0.20 seconds
+LogPluginManager: Found matching target receipt: ../../../Engine/Binaries/Win64/UnrealEditor.target
+LogPluginManager: Mounting Engine plugin Bridge
+LogPluginManager: Mounting Engine plugin ChaosCloth
+LogPluginManager: Mounting Engine plugin ChaosInsights
+LogPluginManager: Mounting Engine plugin ChaosVD
+LogPluginManager: Mounting Engine plugin CmdLinkServer
+LogPluginManager: Mounting Engine plugin EnhancedInput
+LogPluginManager: Mounting Engine plugin Fab
+LogPluginManager: Mounting Engine plugin FastBuildController
+LogPluginManager: Mounting Engine plugin IoStoreInsights
+LogPluginManager: Mounting Engine plugin MassInsights
+LogPluginManager: Mounting Engine plugin MeshPainting
+LogPluginManager: Mounting Engine plugin RenderGraphInsights
+LogPluginManager: Mounting Engine plugin TraceUtilities
+LogPluginManager: Mounting Engine plugin UbaController
+LogPluginManager: Mounting Engine plugin WorldMetrics
+LogPluginManager: Mounting Engine plugin XGEController
+LogPluginManager: Mounting Engine plugin AlembicImporter
+LogPluginManager: Mounting Engine plugin TcpMessaging
+LogPluginManager: Mounting Engine plugin UdpMessaging
+LogPluginManager: Mounting Engine plugin EOSShared
+LogPluginManager: Mounting Engine plugin OnlineBase
+LogPluginManager: Mounting Engine plugin OnlineServices
+LogPluginManager: Mounting Engine plugin OnlineSubsystem
+LogPluginManager: Mounting Engine plugin OnlineSubsystemNull
+LogPluginManager: Mounting Engine plugin ActorLayerUtilities
+LogPluginManager: Mounting Engine plugin OnlineSubsystemUtils
+LogPluginManager: Mounting Engine plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin AndroidPermission
+LogPluginManager: Mounting Engine plugin AndroidFileServer
+LogPluginManager: Mounting Engine plugin AndroidMoviePlayer
+LogPluginManager: Mounting Engine plugin AppleImageUtils
+LogPluginManager: Mounting Engine plugin AppleMoviePlayer
+LogPluginManager: Mounting Engine plugin ArchVisCharacter
+LogPluginManager: Mounting Engine plugin AssetTags
+LogPluginManager: Mounting Engine plugin AudioCapture
+LogPluginManager: Mounting Engine plugin AudioSynesthesia
+LogPluginManager: Mounting Engine plugin AudioWidgets
+LogPluginManager: Mounting Engine plugin CableComponent
+LogPluginManager: Mounting Engine plugin ChunkDownloader
+LogPluginManager: Mounting Engine plugin ComputeFramework
+LogPluginManager: Mounting Engine plugin CustomMeshComponent
+LogPluginManager: Mounting Engine plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin GeometryCache
+LogPluginManager: Mounting Engine plugin GeometryProcessing
+LogPluginManager: Mounting Engine plugin GooglePAD
+LogPluginManager: Mounting Engine plugin GoogleCloudMessaging
+LogPluginManager: Mounting Engine plugin HairStrands
+LogPluginManager: Mounting Engine plugin HDRIBackdrop
+LogPluginManager: Mounting Engine plugin InputDebugging
+LogPluginManager: Mounting Engine plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin LocationServicesBPLibrary
+LogPluginManager: Mounting Engine plugin MeshModelingToolset
+LogPluginManager: Mounting Engine plugin Metasound
+LogPluginManager: Mounting Engine plugin MobilePatchingUtils
+LogPluginManager: Mounting Engine plugin MsQuic
+LogPluginManager: Mounting Engine plugin OpenXR
+LogPluginManager: Mounting Engine plugin OpenXREyeTracker
+LogPluginManager: Mounting Engine plugin OpenXRHandTracking
+LogPluginManager: Mounting Engine plugin ProceduralMeshComponent
+LogPluginManager: Mounting Engine plugin PropertyAccessEditor
+LogPluginManager: Mounting Engine plugin PropertyBindingUtils
+LogPluginManager: Mounting Engine plugin ResonanceAudio
+LogPluginManager: Mounting Engine plugin RigVM
+LogPluginManager: Mounting Engine plugin SignificanceManager
+LogPluginManager: Mounting Engine plugin SoundFields
+LogPluginManager: Mounting Engine plugin StateTree
+LogPluginManager: Mounting Engine plugin Synthesis
+LogPluginManager: Mounting Engine plugin CameraCalibrationCore
+LogPluginManager: Mounting Engine plugin WaveTable
+LogPluginManager: Mounting Engine plugin WebMMoviePlayer
+LogPluginManager: Mounting Engine plugin WindowsDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin WindowsMoviePlayer
+LogPluginManager: Mounting Engine plugin XRBase
+LogPluginManager: Mounting Engine plugin GeometryMask
+LogPluginManager: Mounting Engine plugin OodleNetwork
+LogPluginManager: Mounting Engine plugin Takes
+LogPluginManager: Mounting Engine plugin AssetManagerEditor
+LogPluginManager: Mounting Engine plugin BlueprintHeaderView
+LogPluginManager: Mounting Engine plugin BlueprintMaterialTextureNodes
+LogPluginManager: Mounting Engine plugin ChangelistReview
+LogPluginManager: Mounting Engine plugin ColorGrading
+LogPluginManager: Mounting Engine plugin CryptoKeys
+LogPluginManager: Mounting Engine plugin CurveEditorTools
+LogPluginManager: Mounting Engine plugin DataValidation
+LogPluginManager: Mounting Engine plugin EditorDebugTools
+LogPluginManager: Mounting Engine plugin EditorScriptingUtilities
+LogPluginManager: Mounting Engine plugin EngineAssetDefinitions
+LogPluginManager: Mounting Engine plugin FacialAnimation
+LogPluginManager: Mounting Engine plugin Cascade
+LogPluginManager: Mounting Engine plugin GameplayTagsEditor
+LogPluginManager: Mounting Engine plugin GeometryMode
+LogPluginManager: Mounting Engine plugin Niagara
+LogPluginManager: Mounting Engine plugin NiagaraFluids
+LogPluginManager: Mounting Engine plugin MaterialAnalyzer
+LogPluginManager: Mounting Engine plugin MacGraphicsSwitching
+LogPluginManager: Mounting Engine plugin NiagaraSimCaching
+LogPluginManager: Mounting Engine plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting Engine plugin MeshLODToolset
+LogPluginManager: Mounting Engine plugin ModelingToolsEditorMode
+LogPluginManager: Mounting Engine plugin PluginBrowser
+LogPluginManager: Mounting Engine plugin ProxyLODPlugin
+LogPluginManager: Mounting Engine plugin SequencerAnimTools
+LogPluginManager: Mounting Engine plugin SpeedTreeImporter
+LogPluginManager: Mounting Engine plugin StylusInput
+LogPluginManager: Mounting Engine plugin UMGWidgetPreview
+LogPluginManager: Mounting Engine plugin UVEditor
+LogPluginManager: Mounting Engine plugin WorldPartitionHLODUtilities
+LogPluginManager: Mounting Engine plugin LauncherChunkInstaller
+LogPluginManager: Mounting Engine plugin NNEDenoiser
+LogPluginManager: Mounting Engine plugin NNERuntimeORT
+LogPluginManager: Mounting Engine plugin InterchangeAssets
+LogPluginManager: Mounting Engine plugin InterchangeEditor
+LogPluginManager: Mounting Engine plugin Interchange
+LogPluginManager: Mounting Engine plugin InterchangeTests
+LogPluginManager: Mounting Engine plugin DatasmithContent
+LogPluginManager: Mounting Engine plugin GLTFExporter
+LogPluginManager: Mounting Engine plugin VariantManagerContent
+LogPluginManager: Mounting Engine plugin VariantManager
+LogPluginManager: Mounting Engine plugin AndroidMedia
+LogPluginManager: Mounting Engine plugin AvfMedia
+LogPluginManager: Mounting Engine plugin ImgMedia
+LogPluginManager: Mounting Engine plugin MediaCompositing
+LogPluginManager: Mounting Engine plugin Paper2D
+LogPluginManager: Mounting Engine plugin MediaPlate
+LogPluginManager: Mounting Engine plugin MetaHumanSDK
+LogPluginManager: Mounting Engine plugin MediaPlayerEditor
+LogPluginManager: Mounting Engine plugin AISupport
+LogPluginManager: Mounting Engine plugin EnvironmentQueryEditor
+LogPluginManager: Mounting Engine plugin WebMMedia
+LogPluginManager: Mounting Engine plugin WmfMedia
+LogPluginManager: Mounting Engine plugin EngineCameras
+LogPluginManager: Mounting Engine plugin CameraShakePreviewer
+LogPluginManager: Mounting Engine plugin GameplayCameras
+LogPluginManager: Mounting Engine plugin AnimationSharing
+LogPluginManager: Mounting Engine plugin AnimationData
+LogPluginManager: Mounting Engine plugin ACLPlugin
+LogPluginManager: Mounting Engine plugin CLionSourceCodeAccess
+LogPluginManager: Mounting Engine plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting Engine plugin DumpGPUServices
+LogPluginManager: Mounting Engine plugin GitSourceControl
+LogPluginManager: Mounting Engine plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting Engine plugin AnimationModifierLibrary
+LogPluginManager: Mounting Engine plugin N10XSourceCodeAccess
+LogPluginManager: Mounting Engine plugin NamingTokens
+LogPluginManager: Mounting Engine plugin BlendSpaceMotionAnalysis
+LogPluginManager: Mounting Engine plugin NullSourceCodeAccess
+LogPluginManager: Mounting Engine plugin ControlRigModules
+LogPluginManager: Mounting Engine plugin ControlRigSpline
+LogPluginManager: Mounting Engine plugin ControlRig
+LogPluginManager: Mounting Engine plugin GameplayInsights
+LogPluginManager: Mounting Engine plugin DeformerGraph
+LogPluginManager: Mounting Engine plugin PerforceSourceControl
+LogPluginManager: Mounting Engine plugin IKRig
+LogPluginManager: Mounting Engine plugin LiveLink
+LogPluginManager: Mounting Engine plugin SkeletalMeshModelingTools
+LogPluginManager: Mounting Engine plugin RigLogic
+LogPluginManager: Mounting Engine plugin TweeningUtils
+LogPluginManager: Mounting Engine plugin PixWinPlugin
+LogPluginManager: Mounting Engine plugin PlasticSourceControl
+LogPluginManager: Mounting Engine plugin PluginUtils
+LogPluginManager: Mounting Engine plugin ProjectLauncher
+LogPluginManager: Mounting Engine plugin PropertyAccessNode
+LogPluginManager: Mounting Engine plugin RenderDocPlugin
+LogPluginManager: Mounting Engine plugin RiderSourceCodeAccess
+LogPluginManager: Mounting Engine plugin SubversionSourceControl
+LogPluginManager: Mounting Engine plugin TextureFormatOodle
+LogPluginManager: Mounting Engine plugin UObjectPlugin
+LogPluginManager: Mounting Engine plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting Engine plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting Engine plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting Engine plugin AdvancedRenamer
+LogPluginManager: Mounting Engine plugin AutomationUtils
+LogPluginManager: Mounting Engine plugin BackChannel
+LogPluginManager: Mounting Engine plugin ChaosCaching
+LogPluginManager: Mounting Engine plugin ChaosEditor
+LogPluginManager: Mounting Engine plugin ChaosNiagara
+LogPluginManager: Mounting Engine plugin ChaosSolverPlugin
+LogPluginManager: Mounting Engine plugin ChaosUserDataPT
+LogPluginManager: Mounting Engine plugin CharacterAI
+LogPluginManager: Mounting Engine plugin Dataflow
+LogPluginManager: Mounting Engine plugin EditorDataStorage
+LogPluginManager: Mounting Engine plugin EditorDataStorageFeatures
+LogPluginManager: Mounting Engine plugin EditorPerformance
+LogPluginManager: Mounting Engine plugin EditorTelemetry
+LogPluginManager: Mounting Engine plugin Fracture
+LogPluginManager: Mounting Engine plugin FullBodyIK
+LogPluginManager: Mounting Engine plugin GeometryCollectionPlugin
+LogPluginManager: Mounting Engine plugin GeometryDataflow
+LogPluginManager: Mounting Engine plugin GeometryFlow
+LogPluginManager: Mounting Engine plugin Landmass
+LogPluginManager: Mounting Engine plugin LevelSequenceNavigatorBridge
+LogPluginManager: Mounting Engine plugin LocalizableMessage
+LogPluginManager: Mounting Engine plugin LowLevelNetTrace
+LogPluginManager: Mounting Engine plugin MeshModelingToolsetExp
+LogPluginManager: Mounting Engine plugin NFORDenoise
+LogPluginManager: Mounting Engine plugin PlanarCut
+LogPluginManager: Mounting Engine plugin PlatformCrypto
+LogPluginManager: Mounting Engine plugin PythonScriptPlugin
+LogPluginManager: Mounting Engine plugin RuntimeTelemetry
+LogPluginManager: Mounting Engine plugin SequenceNavigator
+LogPluginManager: Mounting Engine plugin SkeletalReduction
+LogPluginManager: Mounting Engine plugin ActorSequence
+LogPluginManager: Mounting Engine plugin LevelSequenceEditor
+LogPluginManager: Mounting Engine plugin SequencerScripting
+LogPluginManager: Mounting Engine plugin TemplateSequence
+LogPluginManager: Mounting Engine plugin Text3D
+LogPluginManager: Mounting Engine plugin ToolPresets
+LogPluginManager: Mounting Engine plugin Water
+LogPluginManager: Mounting Engine plugin CompositeCore
+LogPluginManager: Mounting Engine plugin OnlineSubsystemIOS
+LogPluginManager: Mounting Engine plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting Engine plugin ObjectMixer
+LogPluginManager: Mounting Engine plugin LightMixer
+LogPluginManager: Mounting Engine plugin PortableObjectFileDataSource
+LogPluginManager: Mounting Engine plugin XInputDevice
+LogPluginManager: Mounting Engine plugin BaseCharacterFXEditor
+LogPluginManager: Mounting Engine plugin ContentBrowserFileDataSource
+LogPluginManager: Mounting Engine plugin ContentBrowserAssetDataSource
+LogPluginManager: Mounting Engine plugin ContentBrowserClassDataSource
+LogPluginManager: Mounting Project plugin computeShader
+SourceControl: Revision control is disabled
+SourceControl: Revision control is disabled
+SourceControl: Revision control is disabled
+LogEOSShared: Loaded "C:/Program Files/Epic Games/UE_5.6/Engine/Binaries/Win64/EOSSDK-Win64-Shipping.dll"
+LogEOSShared: FEOSSDKManager::Initialize Initializing EOSSDK Version:1.17.0-41373641
+LogInit: Using libcurl 8.12.1
+LogInit:  - built for Windows
+LogInit:  - supports SSL with OpenSSL/1.1.1t
+LogInit:  - supports HTTP deflate (compression) using libz 1.3
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_TLSAUTH_SRP
+LogInit:      CURL_VERSION_HTTP2
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: CreateHttpThread using FCurlMultiPollEventLoopHttpThread
+LogInit: Creating http thread with maximum 256 concurrent requests
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: Created online subsystem instance for: NULL
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for type [NULL]
+LogWindows: Failed to load 'WinPixGpuCapturer.dll' (GetLastError=126)
+LogWindows: File 'WinPixGpuCapturer.dll' does not exist
+PixWinPlugin: PIX capture plugin failed to initialize! Check that the process is launched from PIX.
+LogConfig: Applying CVar settings from Section [/Script/RenderDocPlugin.RenderDocPluginSettings] File [Engine]
+LogConfig: Set CVar [[renderdoc.EnableCrashHandler:1]]
+LogConfig: Set CVar [[renderdoc.AutoAttach:1]]
+RenderDocPlugin: locating RenderDoc library (renderdoc.dll)...
+RenderDocPlugin: a RenderDoc library has been located at: C:\Program Files\RenderDoc/renderdoc.dll
+RenderDocPlugin: RenderDoc library has been loaded (RenderDoc API v1.6.0).
+RenderDocPlugin: plugin has been loaded successfully.
+RenderDocPlugin: RenderDoc plugin is ready!
+LogStudioTelemetry: Started StudioTelemetry Session
+LogNFORDenoise: NFORDenoise function starting up
+LogConfig: Applying CVar settings from Section [/Script/CompositeCore.CompositeCorePluginSettings] File [Engine]
+LogInit: ExecutableName: UnrealEditor.exe
+LogInit: Build: ++UE5+Release-5.6-CL-43139311
+LogInit: Platform=WindowsEditor
+LogInit: MachineId=6f87578147f2a8ca6641668e2afcbda9
+LogInit: DeviceId=
+LogInit: Engine Version: 5.6.0-43139311+++UE5+Release-5.6
+LogInit: Compatible Engine Version: 5.6.0-43139311+++UE5+Release-5.6
+LogInit: Net CL: 43139311
+LogInit: OS: Windows 11 (24H2) [10.0.26100.3476] (), CPU: AMD Ryzen 9 5950X 16-Core Processor            , GPU: NVIDIA GeForce RTX 3090
+LogInit: Compiled (64-bit): May 31 2025 16:29:58
+LogInit: Architecture: x64
+LogInit: Compiled with Visual C++: 19.38.33130.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE5+Release-5.6
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_5.6/Engine/Binaries/Win64/
+LogInit: Allocator: Mimalloc
+LogInit: Installed Engine Build: 1
+LogInit: This binary is optimized with LTO: no, PGO: no, instrumented for PGO data collection: no
+LogDevObjectVersion: Number of dev versions registered: 37
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 20
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 49
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 13
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 207
+LogDevObjectVersion:   FortniteValkyrie (8DBC2C5B-54A7-43E0-A768-FCBB7DA29060): 8
+LogDevObjectVersion:   FortniteSeason (5B4C06B7-2463-4AF8-805B-BF70CDF5D0DD): 13
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 17
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 11
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 41
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   UE5-Main (697DD581-E64F-41AB-AA4A-51ECBEB7B628): 121
+LogDevObjectVersion:   UE5-Release (D89B5E42-24BD-4D46-8412-ACA8DF641779): 56
+LogDevObjectVersion:   UE5-SpecialProject (59DA5D52-1232-4948-B878-597870B8E98B): 9
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogDevObjectVersion:   Dev-NaniteResearch (30D58BE3-95EA-4282-A6E3-B159D8EBB06A): 1
+LogDevObjectVersion:   Dev-ComputeFramework (6304A3E7-0059-4F59-8CFC-21BD7721FD4E): 0
+LogDevObjectVersion:   LensFileVersion (8652A554-966A-466C-9FD7-1C6DD61B1ADB): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC.
+LogInit: Object subsystem initialized
+LogConfig: Set CVar [[con.DebugEarlyDefault:1]]
+LogConfig: CVar [[con.DebugLateDefault:1]] deferred - dummy variable created
+LogConfig: CVar [[con.DebugLateCheat:1]] deferred - dummy variable created
+LogConfig: CVar [[LogNamedEventFilters:Frame *]] deferred - dummy variable created
+LogConfig: Set CVar [[r.setres:1280x720]]
+LogConfig: CVar [[framepro.ScopeMinTimeMicroseconds:10]] deferred - dummy variable created
+LogConfig: Set CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
+LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
+LogConfig: CVar [[r.Occlusion.SingleRHIThreadStall:1]] deferred - dummy variable created
+LogConfig: Set CVar [[r.Nanite.Streaming.ReservedResources:1]]
+LogConfig: CVar [[D3D12.Bindless.ResourceDescriptorHeapSize:32768]] deferred - dummy variable created
+LogConfig: CVar [[D3D12.Bindless.SamplerDescriptorHeapSize:2048]] deferred - dummy variable created
+LogConfig: Set CVar [[r.PSOPrecache.GlobalShaders:1]]
+LogConfig: Set CVar [[r.VRS.EnableSoftware:1]]
+LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
+[2025.07.29-03.56.16:449][  0]LogConfig: Set CVar [[r.VSync:0]]
+[2025.07.29-03.56.16:449][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [Engine]
+[2025.07.29-03.56.16:449][  0]LogConfig: CVar [[VisualizeCalibrationColorMaterialPath:/Engine/EngineMaterials/PPM_DefaultCalibrationColor.PPM_DefaultCalibrationColor]] deferred - dummy variable created
+[2025.07.29-03.56.16:449][  0]LogConfig: CVar [[VisualizeCalibrationGrayscaleMaterialPath:/Engine/EngineMaterials/PPM_DefaultCalibrationGrayscale.PPM_DefaultCalibrationGrayscale]] deferred - dummy variable created
+[2025.07.29-03.56.16:449][  0]LogConfig: Set CVar [[r.GPUCrashDebugging:0]]
+[2025.07.29-03.56.16:449][  0]LogConfig: CVar [[MaxSkinBones:(Default=65536,PerPlatform=(("Mobile", 256)))]] deferred - dummy variable created
+[2025.07.29-03.56.16:449][  0]LogConfig: Set CVar [[r.Shaders.RemoveUnusedInterpolators:1]]
+[2025.07.29-03.56.16:449][  0]LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
+[2025.07.29-03.56.16:450][  0]LogConfig: CVar [[r.Mobile.EnableNoPrecomputedLightingCSMShader:1]] deferred - dummy variable created
+[2025.07.29-03.56.16:450][  0]LogConfig: Set CVar [[r.GenerateMeshDistanceFields:1]]
+[2025.07.29-03.56.16:450][  0]LogConfig: Set CVar [[r.DynamicGlobalIlluminationMethod:1]]
+[2025.07.29-03.56.16:450][  0]LogConfig: Set CVar [[r.ReflectionMethod:1]]
+[2025.07.29-03.56.16:450][  0]LogConfig: Set CVar [[r.Shadow.Virtual.Enable:1]]
+[2025.07.29-03.56.16:450][  0]LogConfig: Set CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2025.07.29-03.56.16:450][  0]LogConfig: Set CVar [[r.DefaultFeature.LocalExposure.HighlightContrastScale:0.8]]
+[2025.07.29-03.56.16:450][  0]LogConfig: Set CVar [[r.DefaultFeature.LocalExposure.ShadowContrastScale:0.8]]
+[2025.07.29-03.56.16:450][  0]LogConfig: Set CVar [[r.CustomDepth:3]]
+[2025.07.29-03.56.16:450][  0]LogConfig: Set CVar [[r.CustomDepthTemporalAAJitter:1]]
+[2025.07.29-03.56.16:450][  0]LogConfig: Set CVar [[r.AllowGlobalClipPlane:1]]
+[2025.07.29-03.56.16:450][  0]LogConfig: CVar [[RedChromaticityCoordinate:(X=0.640000,Y=0.330000)]] deferred - dummy variable created
+[2025.07.29-03.56.16:450][  0]LogConfig: CVar [[GreenChromaticityCoordinate:(X=0.300000,Y=0.600000)]] deferred - dummy variable created
+[2025.07.29-03.56.16:450][  0]LogConfig: CVar [[BlueChromaticityCoordinate:(X=0.150000,Y=0.060000)]] deferred - dummy variable created
+[2025.07.29-03.56.16:450][  0]LogConfig: CVar [[WhiteChromaticityCoordinate:(X=0.312700,Y=0.329000)]] deferred - dummy variable created
+[2025.07.29-03.56.16:450][  0]LogConfig: CVar [[WorkingColorSpaceChoice:sRGB]] deferred - dummy variable created
+[2025.07.29-03.56.16:450][  0]LogConfig: Set CVar [[r.ReflectionCaptureResolution:512]]
+[2025.07.29-03.56.16:450][  0]LogConfig: Set CVar [[r.RayTracing:1]]
+[2025.07.29-03.56.16:450][  0]LogConfig: Set CVar [[r.SkinCache.CompileShaders:1]]
+[2025.07.29-03.56.16:450][  0]LogConfig: Set CVar [[r.RayTracing.RayTracingProxies.ProjectEnabled:1]]
+[2025.07.29-03.56.16:450][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [Engine]
+[2025.07.29-03.56.16:450][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [Engine]
+[2025.07.29-03.56.16:450][  0]LogConfig: Set CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2025.07.29-03.56.16:450][  0]LogConfig: Set CVar [[s.AsyncLoadingThreadEnabled:1]]
+[2025.07.29-03.56.16:450][  0]LogConfig: Set CVar [[s.EventDrivenLoaderEnabled:1]]
+[2025.07.29-03.56.16:450][  0]LogConfig: Set CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2025.07.29-03.56.16:450][  0]LogConfig: Set CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2025.07.29-03.56.16:450][  0]LogConfig: Set CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2025.07.29-03.56.16:450][  0]LogConfig: Set CVar [[s.UseBackgroundLevelStreaming:1]]
+[2025.07.29-03.56.16:450][  0]LogConfig: Set CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2025.07.29-03.56.16:450][  0]LogConfig: Set CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2025.07.29-03.56.16:450][  0]LogConfig: Set CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2025.07.29-03.56.16:450][  0]LogConfig: Set CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2025.07.29-03.56.16:450][  0]LogConfig: Set CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2025.07.29-03.56.16:450][  0]LogConfig: Set CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2025.07.29-03.56.16:450][  0]LogConfig: CVar [[s.MaxPackageSummarySize:16384]] deferred - dummy variable created
+[2025.07.29-03.56.16:450][  0]LogConfig: Set CVar [[s.FlushStreamingOnExit:1]]
+[2025.07.29-03.56.16:450][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__SoundBase]] deferred - dummy variable created
+[2025.07.29-03.56.16:450][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__MaterialInterface]] deferred - dummy variable created
+[2025.07.29-03.56.16:450][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__DeviceProfileManager]] deferred - dummy variable created
+[2025.07.29-03.56.16:450][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [Engine]
+[2025.07.29-03.56.16:450][  0]LogConfig: Set CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2025.07.29-03.56.16:450][  0]LogConfig: Set CVar [[gc.FlushStreamingOnGC:0]]
+[2025.07.29-03.56.16:450][  0]LogConfig: Set CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2025.07.29-03.56.16:450][  0]LogConfig: Set CVar [[gc.AllowParallelGC:1]]
+[2025.07.29-03.56.16:450][  0]LogConfig: Set CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2025.07.29-03.56.16:450][  0]LogConfig: Set CVar [[gc.MaxObjectsInEditor:25165824]]
+[2025.07.29-03.56.16:450][  0]LogConfig: Set CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2025.07.29-03.56.16:450][  0]LogConfig: Set CVar [[gc.CreateGCClusters:1]]
+[2025.07.29-03.56.16:450][  0]LogConfig: Set CVar [[gc.MinGCClusterSize:5]]
+[2025.07.29-03.56.16:450][  0]LogConfig: Set CVar [[gc.AssetClustreringEnabled:0]]
+[2025.07.29-03.56.16:450][  0]LogConfig: Set CVar [[gc.ActorClusteringEnabled:0]]
+[2025.07.29-03.56.16:450][  0]LogConfig: Set CVar [[gc.VerifyUObjectsAreNotFGCObjects:0]]
+[2025.07.29-03.56.16:450][  0]LogConfig: Set CVar [[gc.GarbageEliminationEnabled:1]]
+[2025.07.29-03.56.16:450][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [Engine]
+[2025.07.29-03.56.16:450][  0]LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="Average",ToolTip="Simulates average internet conditions")]] deferred - dummy variable created
+[2025.07.29-03.56.16:450][  0]LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="Bad",ToolTip="Simulates laggy internet conditions")]] deferred - dummy variable created
+[2025.07.29-03.56.16:450][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [Engine]
+[2025.07.29-03.56.16:450][  0]LogConfig: CVar [[DefaultASTCQualityBySpeed:2]] deferred - dummy variable created
+[2025.07.29-03.56.16:450][  0]LogConfig: CVar [[DefaultASTCQualityBySize:3]] deferred - dummy variable created
+[2025.07.29-03.56.16:450][  0]LogConfig: CVar [[DefaultASTCQualityBySizeHQ:4]] deferred - dummy variable created
+[2025.07.29-03.56.16:450][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:WidgetBlueprint]] deferred - dummy variable created
+[2025.07.29-03.56.16:450][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:GroupActor]] deferred - dummy variable created
+[2025.07.29-03.56.16:450][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:MetaData]] deferred - dummy variable created
+[2025.07.29-03.56.16:450][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ObjectRedirector]] deferred - dummy variable created
+[2025.07.29-03.56.16:450][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NavMeshRenderingComponent]] deferred - dummy variable created
+[2025.07.29-03.56.16:450][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ReflectionCaptureComponent]] deferred - dummy variable created
+[2025.07.29-03.56.16:450][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:TextRenderComponent]] deferred - dummy variable created
+[2025.07.29-03.56.16:450][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:Font]] deferred - dummy variable created
+[2025.07.29-03.56.16:450][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:InterpCurveEdSetup]] deferred - dummy variable created
+[2025.07.29-03.56.16:450][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:MaterialExpression]] deferred - dummy variable created
+[2025.07.29-03.56.16:450][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NiagaraEmitter]] deferred - dummy variable created
+[2025.07.29-03.56.16:450][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NiagaraScript]] deferred - dummy variable created
+[2025.07.29-03.56.16:450][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleEmitter]] deferred - dummy variable created
+[2025.07.29-03.56.16:450][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleLODLevel]] deferred - dummy variable created
+[2025.07.29-03.56.16:450][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleModule]] deferred - dummy variable created
+[2025.07.29-03.56.16:450][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:SubUVAnimation]] deferred - dummy variable created
+[2025.07.29-03.56.16:450][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:SoundNode]] deferred - dummy variable created
+[2025.07.29-03.56.16:450][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:GameplayEffectUIData]] deferred - dummy variable created
+[2025.07.29-03.56.16:450][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:AmbientSound]] deferred - dummy variable created
+[2025.07.29-03.56.16:450][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:WidgetBlueprint]] deferred - dummy variable created
+[2025.07.29-03.56.16:450][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:GroupActor]] deferred - dummy variable created
+[2025.07.29-03.56.16:450][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:MetaData]] deferred - dummy variable created
+[2025.07.29-03.56.16:450][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:ObjectRedirector]] deferred - dummy variable created
+[2025.07.29-03.56.16:450][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:InterpCurveEdSetup]] deferred - dummy variable created
+[2025.07.29-03.56.16:450][  0]LogConfig: CVar [[VersionedIntRValues:r.AllowStaticLighting]] deferred - dummy variable created
+[2025.07.29-03.56.16:450][  0]LogConfig: CVar [[VersionedIntRValues:r.MaterialEditor.LWCTruncateMode]] deferred - dummy variable created
+[2025.07.29-03.56.16:450][  0]LogConfig: CVar [[VersionedIntRValues:r.GBuffer]] deferred - dummy variable created
+[2025.07.29-03.56.16:450][  0]LogConfig: CVar [[VersionedIntRValues:r.VelocityOutputPass]] deferred - dummy variable created
+[2025.07.29-03.56.16:450][  0]LogConfig: CVar [[VersionedIntRValues:r.SelectiveBasePassOutputs]] deferred - dummy variable created
+[2025.07.29-03.56.16:450][  0]LogConfig: CVar [[VersionedIntRValues:r.DBuffer]] deferred - dummy variable created
+[2025.07.29-03.56.16:450][  0]LogConfig: CVar [[VersionedIntRValues:r.Mobile.DBuffer]] deferred - dummy variable created
+[2025.07.29-03.56.16:450][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.Symbols]] deferred - dummy variable created
+[2025.07.29-03.56.16:450][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.GenerateSymbols]] deferred - dummy variable created
+[2025.07.29-03.56.16:450][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.WriteSymbols]] deferred - dummy variable created
+[2025.07.29-03.56.16:450][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.AllowUniqueSymbols]] deferred - dummy variable created
+[2025.07.29-03.56.16:450][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.ExtraData]] deferred - dummy variable created
+[2025.07.29-03.56.16:450][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.Optimize]] deferred - dummy variable created
+[2025.07.29-03.56.16:450][  0]LogConfig: CVar [[VersionedIntRValues:r.CompileShadersForDevelopment]] deferred - dummy variable created
+[2025.07.29-03.56.16:450][  0]LogConfig: CVar [[VersionedIntRValues:r.MobileHDR]] deferred - dummy variable created
+[2025.07.29-03.56.16:450][  0]LogConfig: CVar [[VersionedIntRValues:r.UsePreExposure]] deferred - dummy variable created
+[2025.07.29-03.56.16:463][  0]LogCsvProfiler: Display: Metadata set : systemresolution.resx="1920"
+[2025.07.29-03.56.16:463][  0]LogCsvProfiler: Display: Metadata set : systemresolution.resy="1080"
+[2025.07.29-03.56.16:464][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [Scalability]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.SkeletalMeshLODBias:0]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.ViewDistanceScale:1.0]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [Scalability]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.FXAA.Quality:4]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.TemporalAA.Quality:2]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.TSR.History.R11G11B10:1]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.TSR.History.ScreenPercentage:200]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.TSR.History.UpdateQuality:3]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.TSR.ShadingRejection.Flickering:1]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.TSR.RejectionAntiAliasingQuality:2]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.TSR.ReprojectionField:1]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.TSR.Resurrection:1]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [Scalability]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.LightFunctionQuality:1]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.ShadowQuality:5]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.Shadow.MaxResolution:2048]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.Shadow.DistanceScale:1.0]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.DistanceFieldShadowing:1]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.VolumetricFog:1]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.LightMaxDrawDistanceScale:1]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.CapsuleShadows:1]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.Shadow.Virtual.MaxPhysicalPages:4096]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasDirectional:-1.5]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasDirectionalMoving:-1.5]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasLocal:0.0]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasLocalMoving:1.0]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountDirectional:8]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayDirectional:4]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountLocal:8]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayLocal:4]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Applying CVar settings from Section [GlobalIlluminationQuality@3] File [Scalability]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.DistanceFieldAO:1]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.SkylightIntensityMultiplier:1.0]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.AOQuality:2]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.Lumen.DiffuseIndirect.Allow:1]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.LumenScene.DirectLighting.MaxLightsPerTile:8]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.LumenScene.DirectLighting.UpdateFactor:32]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.LumenScene.Radiosity.UpdateFactor:64]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.LumenScene.Radiosity.ProbeSpacing:4]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.LumenScene.Radiosity.HemisphereProbeResolution:4]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.Lumen.TraceMeshSDFs.Allow:1]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.RadianceCache.ProbeResolution:32]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.RadianceCache.NumProbesToTraceBudget:100]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.DownsampleFactor:16]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.NumAdaptiveProbes:8]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.TracingOctahedronResolution:8]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.IrradianceFormat:0]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.StochasticInterpolation:0]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.FullResolutionJitterWidth:1]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.TwoSidedFoliageBackfaceDiffuse:1]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.ScreenTraces.HZBTraversal.FullResDepth:1]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.ShortRangeAO.HardwareRayTracing:0]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.ShortRangeAO.BentNormal:1]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.GridPixelSize:32]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.TraceFromVolume:1]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.TracingOctahedronResolution:3]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.RadianceCache.ProbeResolution:8]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.RadianceCache.NumProbesToTraceBudget:70]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.RayTracing.Scene.BuildMode:1]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Applying CVar settings from Section [ReflectionQuality@3] File [Scalability]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.SSR.Quality:3]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.SSR.HalfResSceneColor:0]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.Lumen.Reflections.Allow:1]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.Lumen.Reflections.DownsampleFactor:1]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.Lumen.Reflections.MaxRoughnessToTraceForFoliage:0.4]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.MaxRoughnessToEvaluateRoughSpecularForFoliage:0.8]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.Lumen.Reflections.ScreenSpaceReconstruction.NumSamples:5]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.Lumen.Reflections.ScreenSpaceReconstruction.MinWeight:0]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyReflections.FrontLayer.Allow:1]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyReflections.FrontLayer.Enable:0]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [Scalability]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.MotionBlurQuality:4]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.MotionBlur.HalfResGather:0]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.AmbientOcclusionLevels:-1]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.DepthOfFieldQuality:2]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.RenderTargetPoolMin:400]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.LensFlareQuality:2]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.SceneColorFringeQuality:1]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.EyeAdaptationQuality:2]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.BloomQuality:5]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.Bloom.ScreenPercentage:50.000]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.FastBlurThreshold:100]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.Upscale.Quality:3]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.LightShaftQuality:1]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.Filter.SizeScale:1]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.Tonemapper.Quality:5]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.DOF.Gather.ResolutionDivisor:2         ; lower gathering resolution]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [Scalability]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.Streaming.MipBias:0]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.Streaming.Boost:1]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.MaxAnisotropy:8]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.VT.MaxAnisotropy:8]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.Streaming.PoolSize:1000]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [Scalability]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.RefractionQuality:2]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.SceneColorFormat:4]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.DetailMode:3]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.TranslucencyVolumeBlur:1]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.SSS.Scale:1]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.SSS.SampleSet:2]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.SSS.Quality:1]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.SSS.HalfRes:0]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.SSGI.Quality:3]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.EmitterSpawnRateScale:1.0]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.ParticleLightQuality:2]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[fx.Niagara.QualityLevel:3]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.Refraction.OffsetQuality:1]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.HeterogeneousVolumes.DownsampleFactor:2]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.HeterogeneousVolumes.MaxStepCount:256]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.HeterogeneousVolumes.Shadows.Resolution:256]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.HeterogeneousVolumes.Shadows.MaxSampleCount:8]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.HeterogeneousVolumes.UseExistenceMask:0]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [Scalability]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[foliage.DensityScale:1.0]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[grass.DensityScale:1.0]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [Scalability]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Set CVar [[r.AnisotropicMaterials:1]]
+[2025.07.29-03.56.16:464][  0]LogConfig: Applying CVar settings from Section [LandscapeQuality@3] File [Scalability]
+[2025.07.29-03.56.16:468][  0]LogRHI: Using Default RHI: D3D12
+[2025.07.29-03.56.16:468][  0]LogRHI: Using Highest Feature Level of D3D12: SM6
+[2025.07.29-03.56.16:468][  0]LogRHI: Loading RHI module D3D12RHI
+[2025.07.29-03.56.16:489][  0]LogD3D12RHI: Loading WinPixEventRuntime.dll for PIX profiling (from ../../../Engine/Binaries/ThirdParty/Windows/WinPixEventRuntime/x64).
+[2025.07.29-03.56.16:490][  0]LogRHI: Checking if RHI D3D12 with Feature Level SM6 is supported by your system.
+[2025.07.29-03.56.17:156][  0]LogD3D12RHI: Found D3D12 adapter 0: NVIDIA GeForce RTX 3090 (VendorId: 10de, DeviceId: 2204, SubSysId: 40431458, Revision: 00a1
+[2025.07.29-03.56.17:156][  0]LogD3D12RHI:   Max supported Feature Level 12_2, shader model 6.7, binding tier 3, wave ops supported, atomic64 supported
+[2025.07.29-03.56.17:156][  0]LogD3D12RHI:   Adapter has 24326MB of dedicated video memory, 0MB of dedicated system memory, and 32724MB of shared system memory, 2 output[s], UMA:false
+[2025.07.29-03.56.17:157][  0]LogD3D12RHI:   Driver Version: 576.80 (internal:32.0.15.7680, unified:576.80)
+[2025.07.29-03.56.17:157][  0]LogD3D12RHI:      Driver Date: 6-12-2025
+[2025.07.29-03.56.17:198][  0]LogD3D12RHI: Found D3D12 adapter 1: Microsoft Basic Render Driver (VendorId: 1414, DeviceId: 008c, SubSysId: 0000, Revision: 0000
+[2025.07.29-03.56.17:199][  0]LogD3D12RHI:   Max supported Feature Level 12_1, shader model 6.7, binding tier 3, wave ops supported, atomic64 supported
+[2025.07.29-03.56.17:199][  0]LogD3D12RHI:   Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 32724MB of shared system memory, 0 output[s], UMA:true
+[2025.07.29-03.56.17:580][  0]LogD3D12RHI: Found D3D12 adapter 2: NVIDIA GeForce RTX 3090 (VendorId: 10de, DeviceId: 2204, SubSysId: 40431458, Revision: 00a1
+[2025.07.29-03.56.17:580][  0]LogD3D12RHI:   Max supported Feature Level 12_2, shader model 6.7, binding tier 3, wave ops supported, atomic64 supported
+[2025.07.29-03.56.17:580][  0]LogD3D12RHI:   Adapter has 24326MB of dedicated video memory, 0MB of dedicated system memory, and 32724MB of shared system memory, 0 output[s], UMA:false
+[2025.07.29-03.56.17:580][  0]LogD3D12RHI:   Driver Version: 576.80 (internal:32.0.15.7680, unified:576.80)
+[2025.07.29-03.56.17:580][  0]LogD3D12RHI:      Driver Date: 6-12-2025
+[2025.07.29-03.56.17:940][  0]LogD3D12RHI: Found D3D12 adapter 3: NVIDIA GeForce RTX 3090 (VendorId: 10de, DeviceId: 2204, SubSysId: 40431458, Revision: 00a1
+[2025.07.29-03.56.17:940][  0]LogD3D12RHI:   Max supported Feature Level 12_2, shader model 6.7, binding tier 3, wave ops supported, atomic64 supported
+[2025.07.29-03.56.17:940][  0]LogD3D12RHI:   Adapter has 24326MB of dedicated video memory, 0MB of dedicated system memory, and 32724MB of shared system memory, 0 output[s], UMA:false
+[2025.07.29-03.56.17:941][  0]LogD3D12RHI:   Driver Version: 576.80 (internal:32.0.15.7680, unified:576.80)
+[2025.07.29-03.56.17:941][  0]LogD3D12RHI:      Driver Date: 6-12-2025
+[2025.07.29-03.56.18:303][  0]LogD3D12RHI: Found D3D12 adapter 4: NVIDIA GeForce RTX 3090 (VendorId: 10de, DeviceId: 2204, SubSysId: 40431458, Revision: 00a1
+[2025.07.29-03.56.18:303][  0]LogD3D12RHI:   Max supported Feature Level 12_2, shader model 6.7, binding tier 3, wave ops supported, atomic64 supported
+[2025.07.29-03.56.18:303][  0]LogD3D12RHI:   Adapter has 24326MB of dedicated video memory, 0MB of dedicated system memory, and 32724MB of shared system memory, 0 output[s], UMA:false
+[2025.07.29-03.56.18:303][  0]LogD3D12RHI:   Driver Version: 576.80 (internal:32.0.15.7680, unified:576.80)
+[2025.07.29-03.56.18:303][  0]LogD3D12RHI:      Driver Date: 6-12-2025
+[2025.07.29-03.56.18:303][  0]LogD3D12RHI: DirectX Agility SDK runtime found.
+[2025.07.29-03.56.18:303][  0]LogD3D12RHI: Chosen D3D12 Adapter Id = 0
+[2025.07.29-03.56.18:303][  0]LogRHI: RHI D3D12 with Feature Level SM6 is supported and will be used.
+[2025.07.29-03.56.18:303][  0]LogInit: Selected Device Profile: [WindowsEditor]
+[2025.07.29-03.56.18:304][  0]LogHAL: Display: Platform has ~ 64 GB [68628045824 / 68719476736 / 64], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2025.07.29-03.56.18:304][  0]LogDeviceProfileManager: Going up to parent DeviceProfile [Windows]
+[2025.07.29-03.56.18:304][  0]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2025.07.29-03.56.18:304][  0]LogDeviceProfileManager: Pushing Device Profile CVar: [[UI.SlateSDFText.RasterizationMode:Bitmap -> Msdf]]
+[2025.07.29-03.56.18:304][  0]LogDeviceProfileManager: Pushing Device Profile CVar: [[UI.SlateSDFText.ResolutionLevel:2 -> 2]]
+[2025.07.29-03.56.18:304][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2025.07.29-03.56.18:305][  0]LogConfig: Set CVar [[r.DumpShaderDebugInfo:2]]
+[2025.07.29-03.56.18:305][  0]LogConfig: Set CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2025.07.29-03.56.18:305][  0]LogConfig: Set CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2025.07.29-03.56.18:305][  0]LogConfig: CVar [[ds.CADTranslator.Meshing.ActivateThinZoneMeshing:0]] deferred - dummy variable created
+[2025.07.29-03.56.18:305][  0]LogConfig: CVar [[ds.CADTranslator.Stitching.RemoveThinFaces:0]] deferred - dummy variable created
+[2025.07.29-03.56.18:305][  0]LogConfig: Applying CVar settings from Section [Startup_Windows] File [../../../Engine/Config/ConsoleVariables.ini]
+[2025.07.29-03.56.18:305][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [Engine]
+[2025.07.29-03.56.18:305][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/wb.chenyankai01/Documents/Unreal Projects/d_b 5.6/Saved/Config/WindowsEditor/Editor.ini]
+[2025.07.29-03.56.18:305][  0]LogInit: Computer: SIH-D-3034
+[2025.07.29-03.56.18:305][  0]LogInit: User: wbchenyankai01
+[2025.07.29-03.56.18:305][  0]LogInit: CPU Page size=4096, Cores=16
+[2025.07.29-03.56.18:305][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2025.07.29-03.56.18:305][  0]LogMemory: Process is running as part of a Windows Job with separate resource limits
+[2025.07.29-03.56.18:305][  0]LogMemory: Memory total: Physical=63.9GB (64GB approx) Virtual=73.4GB
+[2025.07.29-03.56.18:305][  0]LogMemory: Platform Memory Stats for WindowsEditor
+[2025.07.29-03.56.18:305][  0]LogMemory: Process Physical Memory: 724.79 MB used, 1003.10 MB peak
+[2025.07.29-03.56.18:305][  0]LogMemory: Process Virtual Memory: 771.64 MB used, 776.14 MB peak
+[2025.07.29-03.56.18:305][  0]LogMemory: Physical Memory: 15438.91 MB used,  50009.90 MB free, 65448.80 MB total
+[2025.07.29-03.56.18:305][  0]LogMemory: Virtual Memory: 17323.49 MB used,  57853.31 MB free, 75176.80 MB total
+[2025.07.29-03.56.18:305][  0]LogCsvProfiler: Display: Metadata set : extradevelopmentmemorymb="0"
+[2025.07.29-03.56.18:317][  0]LogWindows: WindowsPlatformFeatures enabled
+[2025.07.29-03.56.18:348][  0]LogChaosDD: Chaos Debug Draw Startup
+[2025.07.29-03.56.18:348][  0]LogInit: Physics initialised using underlying interface: Chaos
+[2025.07.29-03.56.18:349][  0]LogInit: Overriding language with editor language configuration option (en).
+[2025.07.29-03.56.18:349][  0]LogInit: Using OS detected locale (zh-CN).
+[2025.07.29-03.56.18:367][  0]LogInit: Setting process to per monitor DPI aware
+[2025.07.29-03.56.18:772][  0]LogWindowsTextInputMethodSystem: Available input methods:
+[2025.07.29-03.56.18:772][  0]LogWindowsTextInputMethodSystem:   - 简体中文(中国大陆) - 微软拼音 (TSF IME).
+[2025.07.29-03.56.18:772][  0]LogWindowsTextInputMethodSystem:   - 英语(美国) - (Keyboard).
+[2025.07.29-03.56.18:772][  0]LogWindowsTextInputMethodSystem:   - 简体中文(中国大陆) - 触控输入更正 (TSF IME).
+[2025.07.29-03.56.18:772][  0]LogWindowsTextInputMethodSystem: Activated input method: 简体中文(中国大陆) - 微软拼音 (TSF IME).
+[2025.07.29-03.56.18:789][  0]LogWindowsTouchpad: Display: CacheForceMaxTouchpadSensitivityMode SetMaxTouchpadSensitivity
+[2025.07.29-03.56.18:792][  0]LogObj: Display: Attempting to load config data for Default__SlateThemeManager before the Class has been constructed/registered/linked (likely during module loading or early startup). This will result in the load silently failing and should be fixed.
+[2025.07.29-03.56.18:807][  0]LogSlate: New Slate User Created. Platform User Id 0, User Index 0, Is Virtual User: 0
+[2025.07.29-03.56.18:807][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2025.07.29-03.56.19:034][  0]LogHMD: OpenXRHMDModule::InitInstance using DefaultLoader.
+[2025.07.29-03.56.19:055][  0]LogHMD: xrEnumerateInstanceExtensionProperties failed, suggests no runtime is installed.
+[2025.07.29-03.56.19:055][  0]LogHMD: Failed to enumerate extensions. Please check that you have a valid OpenXR runtime installed.
+[2025.07.29-03.56.19:055][  0]LogRHI: Using Default RHI: D3D12
+[2025.07.29-03.56.19:055][  0]LogRHI: Using Highest Feature Level of D3D12: SM6
+[2025.07.29-03.56.19:055][  0]LogRHI: Loading RHI module D3D12RHI
+[2025.07.29-03.56.19:055][  0]LogRHI: Checking if RHI D3D12 with Feature Level SM6 is supported by your system.
+[2025.07.29-03.56.19:055][  0]LogRHI: RHI D3D12 with Feature Level SM6 is supported and will be used.
+[2025.07.29-03.56.19:055][  0]LogD3D12RHI: Integrated GPU (iGPU): false
+[2025.07.29-03.56.19:055][  0]LogD3D12RHI: Display: Creating D3D12 RHI with Max Feature Level SM6
+[2025.07.29-03.56.19:056][  0]LogWindows: Attached monitors:
+[2025.07.29-03.56.19:056][  0]LogWindows:     resolution: 1920x1080, work area: (0, 0) -> (1920, 1032), device: '\\.\DISPLAY2' [PRIMARY]
+[2025.07.29-03.56.19:056][  0]LogWindows:     resolution: 1920x1080, work area: (-1920, 0) -> (0, 1032), device: '\\.\DISPLAY1'
+[2025.07.29-03.56.19:056][  0]LogWindows: Found 2 attached monitors.
+[2025.07.29-03.56.19:056][  0]LogWindows: Gathering driver information using Windows Setup API
+[2025.07.29-03.56.19:056][  0]LogRHI: RHI Adapter Info:
+[2025.07.29-03.56.19:056][  0]LogRHI:             Name: NVIDIA GeForce RTX 3090
+[2025.07.29-03.56.19:056][  0]LogRHI:   Driver Version: 576.80 (internal:32.0.15.7680, unified:576.80)
+[2025.07.29-03.56.19:056][  0]LogRHI:      Driver Date: 6-12-2025
+[2025.07.29-03.56.19:056][  0]LogD3D12RHI:     GPU DeviceId: 0x2204 (for the marketing name, search the web for "GPU Device Id")
+[2025.07.29-03.56.19:056][  0]LogD3D12RHI: InitD3DDevice: -D3DDebug = off -D3D12GPUValidation = off
+[2025.07.29-03.56.19:255][  0]LogNvidiaAftermath: Aftermath initialized
+[2025.07.29-03.56.19:256][  0]LogD3D12RHI: Emitting draw events for PIX profiling.
+[2025.07.29-03.56.19:443][  0]LogNvidiaAftermath: Aftermath enabled but failed to initialize (bad0000a).
+[2025.07.29-03.56.19:443][  0]LogD3D12RHI: ID3D12Device1 is supported.
+[2025.07.29-03.56.19:443][  0]LogD3D12RHI: ID3D12Device2 is supported.
+[2025.07.29-03.56.19:443][  0]LogD3D12RHI: ID3D12Device3 is supported.
+[2025.07.29-03.56.19:443][  0]LogD3D12RHI: ID3D12Device4 is supported.
+[2025.07.29-03.56.19:443][  0]LogD3D12RHI: ID3D12Device5 is supported.
+[2025.07.29-03.56.19:443][  0]LogD3D12RHI: ID3D12Device6 is supported.
+[2025.07.29-03.56.19:443][  0]LogD3D12RHI: ID3D12Device7 is supported.
+[2025.07.29-03.56.19:443][  0]LogD3D12RHI: ID3D12Device8 is supported.
+[2025.07.29-03.56.19:443][  0]LogD3D12RHI: ID3D12Device9 is supported.
+[2025.07.29-03.56.19:443][  0]LogD3D12RHI: ID3D12Device10 is supported.
+[2025.07.29-03.56.19:443][  0]LogD3D12RHI: ID3D12Device11 is supported.
+[2025.07.29-03.56.19:443][  0]LogD3D12RHI: ID3D12Device12 is supported.
+[2025.07.29-03.56.19:443][  0]LogD3D12RHI: Bindless resources are supported
+[2025.07.29-03.56.19:443][  0]LogD3D12RHI: Stencil ref from pixel shader is not supported
+[2025.07.29-03.56.19:443][  0]LogD3D12RHI: Raster order views are supported
+[2025.07.29-03.56.19:443][  0]LogD3D12RHI: Wave Operations are supported (wave size: min=32 max=32).
+[2025.07.29-03.56.19:443][  0]LogD3D12RHI: D3D12 ray tracing tier 1.1 and bindless resources are supported.
+[2025.07.29-03.56.19:443][  0]LogD3D12RHI: Mesh shader tier 1.0 is supported
+[2025.07.29-03.56.19:443][  0]LogD3D12RHI: AtomicInt64OnTypedResource is supported
+[2025.07.29-03.56.19:443][  0]LogD3D12RHI: AtomicInt64OnGroupShared is supported
+[2025.07.29-03.56.19:443][  0]LogD3D12RHI: AtomicInt64OnDescriptorHeapResource is supported
+[2025.07.29-03.56.19:443][  0]LogD3D12RHI: Shader Model 6.6 atomic64 is supported
+[2025.07.29-03.56.19:758][  0]LogRHI: Display: Setting GPU Capture Options: 1
+[2025.07.29-03.56.19:758][  0]LogRHI: Display: Toggling showmaterialdrawevents: 1
+[2025.07.29-03.56.19:758][  0]LogRHI: Display: Enabling full RDG events (r.RDG.Events 3)
+[2025.07.29-03.56.19:788][  0]LogD3D12RHI: [GPUBreadCrumb] Successfully setup breadcrumb resource for DiagnosticBuffer (Queue: 0x0000025F8D4722C0)
+[2025.07.29-03.56.19:788][  0]LogD3D12RHI: [GPUBreadCrumb] Successfully setup breadcrumb resource for DiagnosticBuffer (Queue: 0x0000025F8D472580)
+[2025.07.29-03.56.19:789][  0]LogD3D12RHI: [GPUBreadCrumb] Successfully setup breadcrumb resource for DiagnosticBuffer (Queue: 0x0000025F8D472840)
+[2025.07.29-03.56.19:789][  0]LogD3D12RHI: Display: Not using pipeline state disk cache per r.D3D12.PSO.DiskCache=0
+[2025.07.29-03.56.19:789][  0]LogD3D12RHI: Display: Not using driver-optimized pipeline state disk cache per r.D3D12.PSO.DriverOptimizedDiskCache=0
+[2025.07.29-03.56.19:791][  0]LogD3D12RHI: NVIDIA Shader Execution Reordering NOT supported!
+[2025.07.29-03.56.19:791][  0]LogD3D12RHI: Warning: Failed to query NVIDIA driver version
+[2025.07.29-03.56.19:791][  0]LogD3D12RHI: Display: Batched command list execution is disabled for async queues due to known bugs in the current driver.
+[2025.07.29-03.56.19:791][  0]LogRHI: Texture pool is 14841 MB (70% of 21202 MB)
+[2025.07.29-03.56.19:791][  0]LogD3D12RHI: Async texture creation enabled
+[2025.07.29-03.56.19:791][  0]LogD3D12RHI: RHI has support for 64 bit atomics
+[2025.07.29-03.56.19:801][  0]LogVRS: Current RHI supports per-draw and screenspace Variable Rate Shading
+[2025.07.29-03.56.19:804][  0]LogCsvProfiler: Display: Metadata set : verbatimrhiname="D3D12"
+[2025.07.29-03.56.19:804][  0]LogCsvProfiler: Display: Metadata set : rhiname="D3D12"
+[2025.07.29-03.56.19:804][  0]LogCsvProfiler: Display: Metadata set : rhifeaturelevel="SM6"
+[2025.07.29-03.56.19:804][  0]LogCsvProfiler: Display: Metadata set : shaderplatform="PCD3D_SM6"
+[2025.07.29-03.56.19:804][  0]LogInit: Initializing FReadOnlyCVARCache
+[2025.07.29-03.56.19:838][  0]LogTurnkeySupport: Running Turnkey SDK detection: ' -ScriptsForProject="C:/Users/wb.chenyankai01/Documents/Unreal Projects/d_b 5.6/d_b.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="C:/Users/wb.chenyankai01/Documents/Unreal Projects/d_b 5.6/Intermediate/TurnkeyReport_0.log" -log="C:/Users/wb.chenyankai01/Documents/Unreal Projects/d_b 5.6/Intermediate/TurnkeyLog_0.log" -project="C:/Users/wb.chenyankai01/Documents/Unreal Projects/d_b 5.6/d_b.uproject"  -platform=all'
+[2025.07.29-03.56.19:838][  0]LogMonitoredProcess: Running Serialized UAT: [ cmd.exe /c ""C:/Program Files/Epic Games/UE_5.6/Engine/Build/BatchFiles/RunUAT.bat"  -ScriptsForProject="C:/Users/wb.chenyankai01/Documents/Unreal Projects/d_b 5.6/d_b.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="C:/Users/wb.chenyankai01/Documents/Unreal Projects/d_b 5.6/Intermediate/TurnkeyReport_0.log" -log="C:/Users/wb.chenyankai01/Documents/Unreal Projects/d_b 5.6/Intermediate/TurnkeyLog_0.log" -project="C:/Users/wb.chenyankai01/Documents/Unreal Projects/d_b 5.6/d_b.uproject"  -platform=all" ]
+[2025.07.29-03.56.19:957][  0]LogTextureFormatASTC: Display: ASTCEnc version 5.0.1 library loaded
+[2025.07.29-03.56.19:957][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatASTC
+[2025.07.29-03.56.19:957][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatDXT
+[2025.07.29-03.56.19:957][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatETC2
+[2025.07.29-03.56.19:957][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatIntelISPCTexComp
+[2025.07.29-03.56.19:957][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatUncompressed
+[2025.07.29-03.56.19:957][  0]LogTextureFormatOodle: Display: Oodle Texture TFO init; latest sdk version = 2.9.13
+[2025.07.29-03.56.19:957][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.13.dll
+[2025.07.29-03.56.19:968][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.5.dll
+[2025.07.29-03.56.19:979][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatOodle
+[2025.07.29-03.56.20:066][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2025.07.29-03.56.20:066][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2025.07.29-03.56.20:066][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2025.07.29-03.56.20:066][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2025.07.29-03.56.20:066][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_OpenXR'
+[2025.07.29-03.56.20:066][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2025.07.29-03.56.20:066][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2025.07.29-03.56.20:066][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2025.07.29-03.56.20:066][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2025.07.29-03.56.20:066][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_OpenXRClient'
+[2025.07.29-03.56.20:066][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2025.07.29-03.56.20:066][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2025.07.29-03.56.20:134][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2025.07.29-03.56.20:135][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2025.07.29-03.56.20:208][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2025.07.29-03.56.20:208][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxEditor'
+[2025.07.29-03.56.20:208][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2025.07.29-03.56.20:208][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2025.07.29-03.56.20:293][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Mac'
+[2025.07.29-03.56.20:293][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacEditor'
+[2025.07.29-03.56.20:293][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacServer'
+[2025.07.29-03.56.20:293][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacClient'
+[2025.07.29-03.56.20:366][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2025.07.29-03.56.20:366][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2025.07.29-03.56.20:437][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2025.07.29-03.56.20:437][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsEditor'
+[2025.07.29-03.56.20:437][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2025.07.29-03.56.20:437][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2025.07.29-03.56.20:437][  0]LogTargetPlatformManager: Display: Building Assets For WindowsEditor
+[2025.07.29-03.56.20:661][  0]LogTargetPlatformManager: Unable to find shader format SF_METAL_ES3_1_IOS from hinted modules, loading all potential format modules to find it
+[2025.07.29-03.56.20:699][  0]LogTargetPlatformManager: Loaded format module MetalShaderFormat
+[2025.07.29-03.56.20:699][  0]LogTargetPlatformManager:   SF_METAL_ES3_1_IOS
+[2025.07.29-03.56.20:699][  0]LogTargetPlatformManager:   SF_METAL_SM5_IOS
+[2025.07.29-03.56.20:699][  0]LogTargetPlatformManager:   SF_METAL_ES3_1_TVOS
+[2025.07.29-03.56.20:699][  0]LogTargetPlatformManager:   SF_METAL_SM5_TVOS
+[2025.07.29-03.56.20:699][  0]LogTargetPlatformManager:   SF_METAL_SM5
+[2025.07.29-03.56.20:699][  0]LogTargetPlatformManager:   SF_METAL_SM6
+[2025.07.29-03.56.20:699][  0]LogTargetPlatformManager:   SF_METAL_SIM
+[2025.07.29-03.56.20:699][  0]LogTargetPlatformManager:   SF_METAL_ES3_1
+[2025.07.29-03.56.20:699][  0]LogTargetPlatformManager: Loaded format module ShaderFormatD3D
+[2025.07.29-03.56.20:699][  0]LogTargetPlatformManager:   PCD3D_SM6
+[2025.07.29-03.56.20:699][  0]LogTargetPlatformManager:   PCD3D_SM5
+[2025.07.29-03.56.20:699][  0]LogTargetPlatformManager:   PCD3D_ES31
+[2025.07.29-03.56.20:699][  0]LogTargetPlatformManager: Loaded format module ShaderFormatOpenGL
+[2025.07.29-03.56.20:699][  0]LogTargetPlatformManager:   GLSL_150_ES31
+[2025.07.29-03.56.20:699][  0]LogTargetPlatformManager:   GLSL_ES3_1_ANDROID
+[2025.07.29-03.56.20:699][  0]LogTargetPlatformManager: Loaded format module ShaderFormatVectorVM
+[2025.07.29-03.56.20:699][  0]LogTargetPlatformManager:   VVM_1_0
+[2025.07.29-03.56.20:699][  0]LogTargetPlatformManager: Loaded format module VulkanShaderFormat
+[2025.07.29-03.56.20:699][  0]LogTargetPlatformManager:   SF_VULKAN_SM5
+[2025.07.29-03.56.20:699][  0]LogTargetPlatformManager:   SF_VULKAN_ES31_ANDROID
+[2025.07.29-03.56.20:699][  0]LogTargetPlatformManager:   SF_VULKAN_ES31
+[2025.07.29-03.56.20:699][  0]LogTargetPlatformManager:   SF_VULKAN_SM5_ANDROID
+[2025.07.29-03.56.20:699][  0]LogTargetPlatformManager:   SF_VULKAN_SM6
+[2025.07.29-03.56.20:699][  0]LogRendererCore: Ray tracing is enabled (dynamic). Reason: r.RayTracing=1 and r.RayTracing.EnableOnDemand=1.
+[2025.07.29-03.56.20:699][  0]LogRendererCore: Ray tracing shaders are enabled.
+[2025.07.29-03.56.20:704][  0]LogDerivedDataCache: Display: Memory: Max Cache Size: -1 MB
+[2025.07.29-03.56.20:704][  0]LogDerivedDataCache: FDerivedDataBackendGraph: Pak pak cache file ../../../../../../Users/wb.chenyankai01/Documents/Unreal Projects/d_b 5.6/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2025.07.29-03.56.20:704][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchy Hierarchy.
+[2025.07.29-03.56.20:704][  0]LogDerivedDataCache: FDerivedDataBackendGraph: CompressedPak pak cache file ../../../../../../Users/wb.chenyankai01/Documents/Unreal Projects/d_b 5.6/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2025.07.29-03.56.20:704][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchy Hierarchy.
+[2025.07.29-03.56.20:920][  0]LogDerivedDataCache: Display: ../../../Engine/DerivedDataCache/Compressed.ddp: Opened pak cache for reading. (1351 MiB)
+[2025.07.29-03.56.20:921][  0]LogDerivedDataCache: FDerivedDataBackendGraph: EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2025.07.29-03.56.20:921][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchy Hierarchy.
+[2025.07.29-03.56.20:921][  0]LogZenServiceInstance: Found Zen config default=C:/Users/wb.chenyankai01/AppData/Local/UnrealEngine/Common/Zen/Data
+[2025.07.29-03.56.20:922][  0]LogZenServiceInstance: InTree version at 'C:/Program Files/Epic Games/UE_5.6/Engine/Binaries/Win64/zenserver.exe' is '5.6.6-202504241958-windows-x64-release-f090a03'
+[2025.07.29-03.56.20:923][  0]LogZenServiceInstance: Installed version at 'C:/Users/wb.chenyankai01/AppData/Local/UnrealEngine/Common/Zen/Install/zenserver.exe' is '5.6.6-202504241958-windows-x64-release-f090a03'
+[2025.07.29-03.56.20:923][  0]LogZenServiceInstance: No current process using the data dir found, launching a new instance
+[2025.07.29-03.56.20:923][  0]LogZenServiceInstance: Display: Launching executable 'C:/Users/wb.chenyankai01/AppData/Local/UnrealEngine/Common/Zen/Install/zenserver.exe', working dir 'C:/Users/wb.chenyankai01/AppData/Local/UnrealEngine/Common/Zen/Install', data dir 'C:/Users/wb.chenyankai01/AppData/Local/UnrealEngine/Common/Zen/Data', args '--port 8558 --data-dir "C:\Users\wb.chenyankai01\AppData\Local\UnrealEngine\Common\Zen\Data" --http asio --gc-cache-duration-seconds 1209600 --gc-interval-seconds 21600 --gc-low-diskspace-threshold 2147483648 --quiet --http-forceloopback --owner-pid 20272  --child-id Zen_20272_Startup'
+[2025.07.29-03.56.21:222][  0]LogZenServiceInstance: Display: Unreal Zen Storage Server HTTP service at [::1]:8558 status: OK!.
+[2025.07.29-03.56.21:222][  0]LogZenServiceInstance: Local ZenServer AutoLaunch initialization completed in 0.301 seconds
+[2025.07.29-03.56.21:235][  0]LogDerivedDataCache: Display: ZenLocal: Using ZenServer HTTP service at http://[::1]:8558/ with namespace ue.ddc status: OK!.
+[2025.07.29-03.56.21:243][  0]LogDerivedDataCache: C:/Users/wb.chenyankai01/AppData/Local/UnrealEngine/Common/DerivedDataCache: Speed tests took 0.01 seconds.
+[2025.07.29-03.56.21:243][  0]LogDerivedDataCache: Display: C:/Users/wb.chenyankai01/AppData/Local/UnrealEngine/Common/DerivedDataCache: Performance: Latency=0.09ms. RandomReadSpeed=672.18MBs, RandomWriteSpeed=177.48MBs. Assigned SpeedClass 'Local'
+[2025.07.29-03.56.21:244][  0]LogDerivedDataCache: Local: Using data cache path C:/Users/wb.chenyankai01/AppData/Local/UnrealEngine/Common/DerivedDataCache: DeleteOnly
+[2025.07.29-03.56.21:245][  0]LogDerivedDataCache: ZenShared: Disabled because Host is set to 'None'
+[2025.07.29-03.56.21:245][  0]LogDerivedDataCache: Unable to find inner node ZenShared for hierarchy Hierarchy.
+[2025.07.29-03.56.21:245][  0]LogDerivedDataCache: Shared: Disabled because no path is configured.
+[2025.07.29-03.56.21:245][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchy Hierarchy.
+[2025.07.29-03.56.21:245][  0]LogDerivedDataCache: Cloud: Disabled because Host is set to 'None'
+[2025.07.29-03.56.21:245][  0]LogDerivedDataCache: Unable to find inner node Cloud for hierarchy Hierarchy.
+[2025.07.29-03.56.21:246][  0]LogShaderCompilers: Guid format shader working directory is -18 characters bigger than the processId version (../../../../../../Users/wb.chenyankai01/Documents/Unreal Projects/d_b 5.6/Intermediate/Shaders/WorkingDirectory/20272/).
+[2025.07.29-03.56.21:246][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/wb.chenyankai01/AppData/Local/Temp/UnrealShaderWorkingDir/54FFB0804A22233925073FB378DE906E/'.
+[2025.07.29-03.56.21:256][  0]LogUbaHorde: Display: UBA/Horde Configuration [Uba.Provider.Horde]: Not Enabled
+[2025.07.29-03.56.21:264][  0]LogXGEController: Display: Initialized XGE controller. XGE tasks will not be spawned on this machine.
+[2025.07.29-03.56.21:264][  0]LogShaderCompilers: Display: Using XGE Controller for shader compilation
+[2025.07.29-03.56.21:264][  0]LogShaderCompilers: Display: Using 16 local workers for shader compilation
+[2025.07.29-03.56.21:266][  0]LogShaderCompilers: Display: Compiling shader autogen file: ../../../../../../Users/wb.chenyankai01/Documents/Unreal Projects/d_b 5.6/Intermediate/ShaderAutogen/PCD3D_SM6/AutogenShaderHeaders.ush
+[2025.07.29-03.56.21:275][  0]LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+[2025.07.29-03.56.21:539][  0]LogTurnkeySupport: Completed SDK detection: ExitCode = 0
+[2025.07.29-03.56.22:941][  0]LogSlate: Using FreeType 2.10.0
+[2025.07.29-03.56.22:942][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2025.07.29-03.56.22:946][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_24x.png' error.
+[2025.07.29-03.56.22:946][  0]LogSlate: Could not load file for Slate resource: [../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_24x.png] file: [../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_24x.png]
+[2025.07.29-03.56.22:946][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_128x.png' error.
+[2025.07.29-03.56.22:946][  0]LogSlate: Could not load file for Slate resource: [../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_128x.png] file: [../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_128x.png]
+[2025.07.29-03.56.22:979][  0]LogAssetRegistry: FAssetRegistry took 0.0035 seconds to start up
+[2025.07.29-03.56.22:981][  0]LogEditorDomain: Display: EditorDomain is Disabled
+[2025.07.29-03.56.23:039][  0]LogAssetRegistry: Display: AssetDataGatherer spent 0.000s loading caches ../../../../../../Users/wb.chenyankai01/Documents/Unreal Projects/d_b 5.6/Intermediate/CachedAssetRegistry_*.bin.
+[2025.07.29-03.56.23:296][  0]LogDeviceProfileManager: Display: Deviceprofile LinuxArm64Editor not found.
+[2025.07.29-03.56.23:296][  0]LogDeviceProfileManager: Display: Deviceprofile LinuxArm64 not found.
+[2025.07.29-03.56.23:329][  0]LogDeviceProfileManager: Active device profile: [0000025FDFDCD480][0000025F64112800 66] WindowsEditor
+[2025.07.29-03.56.23:329][  0]LogCsvProfiler: Display: Metadata set : deviceprofile="WindowsEditor"
+[2025.07.29-03.56.23:331][  0]LogStreaming: Display: FlushAsyncLoading(1): 1 QueuedPackages, 0 AsyncPackages
+[2025.07.29-03.56.23:333][  0]LogTextureEncodingSettings: Display: Texture Encode Speed: FinalIfAvailable (editor).
+[2025.07.29-03.56.23:333][  0]LogTextureEncodingSettings: Display: Oodle Texture Encode Speed settings: Fast: RDO Off Lambda=0, Effort=Normal Final: RDO Off Lambda=0, Effort=Normal
+[2025.07.29-03.56.23:333][  0]LogTextureEncodingSettings: Display: Shared linear texture encoding: Disabled
+[2025.07.29-03.56.23:343][  0]LogTurnkeySupport: Turnkey Platform: Win64: (Status=Valid, MinAllowed_Sdk=10.0.19041.0, MaxAllowed_Sdk=10.9.99999.0, Current_Sdk=10.0.22621.0, Allowed_AutoSdk=10.0.22621.0, Current_AutoSdk=, Flags="InstalledSdk_ValidVersionExists, Sdk_HasBestVersion")
+[2025.07.29-03.56.23:357][  0]LogTurnkeySupport: Running Turnkey device detection: ' -ScriptsForProject="C:/Users/wb.chenyankai01/Documents/Unreal Projects/d_b 5.6/d_b.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="C:/Users/wb.chenyankai01/Documents/Unreal Projects/d_b 5.6/Intermediate/TurnkeyReport_1.log" -log="C:/Users/wb.chenyankai01/Documents/Unreal Projects/d_b 5.6/Intermediate/TurnkeyLog_1.log" -project="C:/Users/wb.chenyankai01/Documents/Unreal Projects/d_b 5.6/d_b.uproject"  -Device=Win64@SIH-D-3034'
+[2025.07.29-03.56.23:357][  0]LogMonitoredProcess: Running Serialized UAT: [ cmd.exe /c ""C:/Program Files/Epic Games/UE_5.6/Engine/Build/BatchFiles/RunUAT.bat"  -ScriptsForProject="C:/Users/wb.chenyankai01/Documents/Unreal Projects/d_b 5.6/d_b.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="C:/Users/wb.chenyankai01/Documents/Unreal Projects/d_b 5.6/Intermediate/TurnkeyReport_1.log" -log="C:/Users/wb.chenyankai01/Documents/Unreal Projects/d_b 5.6/Intermediate/TurnkeyLog_1.log" -project="C:/Users/wb.chenyankai01/Documents/Unreal Projects/d_b 5.6/d_b.uproject"  -Device=Win64@SIH-D-3034" -nocompile -nocompileuat ]
+[2025.07.29-03.56.23:397][  0]LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.07.29-03.56.23:398][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultTextMaterialOpaque is adding a dynamic import to package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness because of a recursive sync load
+[2025.07.29-03.56.23:398][  0]LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.07.29-03.56.23:398][  0]LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.07.29-03.56.23:399][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultTextMaterialOpaque is adding a dynamic import to package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec because of a recursive sync load
+[2025.07.29-03.56.23:399][  0]LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.07.29-03.56.23:399][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/WorldGridMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.07.29-03.56.23:401][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultTextMaterialOpaque is adding a dynamic import to package /Engine/EngineMaterials/T_Default_Material_Grid_M because of a recursive sync load
+[2025.07.29-03.56.23:402][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultTextMaterialOpaque is adding a dynamic import to package /Engine/EngineMaterials/T_Default_Material_Grid_N because of a recursive sync load
+[2025.07.29-03.56.23:403][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultTextMaterialOpaque is adding a dynamic import to package /Engine/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade because of a recursive sync load
+[2025.07.29-03.56.23:404][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/WorldGridMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.07.29-03.56.23:405][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.07.29-03.56.23:405][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultPostProcessMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.07.29-03.56.23:406][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultLightFunctionMaterial is adding a dynamic import to package /Engine/EngineMaterials/DefaultDiffuse because of a recursive sync load
+[2025.07.29-03.56.23:406][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultLightFunctionMaterial is adding a dynamic import to package /Engine/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components because of a recursive sync load
+[2025.07.29-03.56.23:408][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultLightFunctionMaterial is adding a dynamic import to package /Engine/EngineMaterials/DefaultPostProcessMaterial because of a recursive sync load
+[2025.07.29-03.56.23:408][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultPostProcessMaterial (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.07.29-03.56.23:440][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultDeferredDecalMaterial is adding a dynamic import to package /Engine/EngineMaterials/DefaultLightFunctionMaterial because of a recursive sync load
+[2025.07.29-03.56.23:440][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.07.29-03.56.23:459][  0]LogStreaming: Display: Package /Engine/EngineMaterials/WorldGridMaterial is adding a dynamic import to package /Engine/EngineMaterials/DefaultDeferredDecalMaterial because of a recursive sync load
+[2025.07.29-03.56.23:459][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/WorldGridMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.07.29-03.56.23:478][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultTextMaterialOpaque is adding a dynamic import to package /Engine/EngineMaterials/WorldGridMaterial because of a recursive sync load
+[2025.07.29-03.56.23:478][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/WorldGridMaterial (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.07.29-03.56.23:803][  0]LogMeshReduction: Display: Using QuadricMeshReduction for automatic static mesh reduction
+[2025.07.29-03.56.23:803][  0]LogMeshReduction: Display: Using SkeletalMeshReduction for automatic skeletal mesh reduction
+[2025.07.29-03.56.23:804][  0]LogMeshReduction: Display: Using ProxyLODMeshReduction for automatic mesh merging
+[2025.07.29-03.56.23:804][  0]LogMeshReduction: Display: No distributed automatic mesh merging module available
+[2025.07.29-03.56.23:804][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2025.07.29-03.56.24:723][  0]LogConfig: Applying CVar settings from Section [/Script/CQTest.CQTestSettings] File [Engine]
+[2025.07.29-03.56.24:792][  0]LogVirtualization: Display: VirtualizationSystem name found in ini file: None
+[2025.07.29-03.56.24:792][  0]LogVirtualization: Display: FNullVirtualizationSystem mounted, virtualization will be disabled
+[2025.07.29-03.56.24:793][  0]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: NetActorFactory name: NetActorFactory id: 0
+[2025.07.29-03.56.24:793][  0]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: NetSubObjectFactory name: NetSubObjectFactory id: 1
+[2025.07.29-03.56.24:810][  0]LogLiveCoding: Display: Starting LiveCoding
+[2025.07.29-03.56.24:810][  0]LogLiveCoding: Display: LiveCodingConsole Arguments: UnrealEditor Win64 Development
+[2025.07.29-03.56.24:811][  0]LogLiveCoding: Display: First instance in process group "UE_d_b_0x2dfedc0f", spawning console
+[2025.07.29-03.56.24:883][  0]LogLiveCoding: Display: Waiting for server
+[2025.07.29-03.56.24:900][  0]LogSlate: Border
+[2025.07.29-03.56.24:900][  0]LogSlate: BreadcrumbButton
+[2025.07.29-03.56.24:900][  0]LogSlate: Brushes.Title
+[2025.07.29-03.56.24:900][  0]LogSlate: ColorPicker.ColorThemes
+[2025.07.29-03.56.24:900][  0]LogSlate: Default
+[2025.07.29-03.56.24:900][  0]LogSlate: Icons.Save
+[2025.07.29-03.56.24:900][  0]LogSlate: Icons.Toolbar.Settings
+[2025.07.29-03.56.24:900][  0]LogSlate: ListView
+[2025.07.29-03.56.24:900][  0]LogSlate: SoftwareCursor_CardinalCross
+[2025.07.29-03.56.24:900][  0]LogSlate: SoftwareCursor_Grab
+[2025.07.29-03.56.24:900][  0]LogSlate: TableView.DarkRow
+[2025.07.29-03.56.24:900][  0]LogSlate: TableView.Row
+[2025.07.29-03.56.24:900][  0]LogSlate: TreeView
+[2025.07.29-03.56.25:069][  0]LogTurnkeySupport: Completed device detection: Code = 0
+[2025.07.29-03.56.25:409][  0]LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize started...
+[2025.07.29-03.56.25:412][  0]LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize took 2.984 ms
+[2025.07.29-03.56.25:562][  0]LogInit: XR: Instanced Stereo Rendering is Disabled
+[2025.07.29-03.56.25:562][  0]LogInit: XR: MultiViewport is Disabled
+[2025.07.29-03.56.25:562][  0]LogInit: XR: Mobile Multiview is Disabled
+[2025.07.29-03.56.25:576][  0]LogTurnkeySupport: Turnkey Device: Win64@SIH-D-3034: (Name=SIH-D-3034, Type=Computer, Status=Valid, MinAllowed=10.0.19041.0, MaxAllowed=, Current=10.0.26100.0, Flags="Device_InstallSoftwareValid")
+[2025.07.29-03.56.25:614][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2025.07.29-03.56.25:705][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2025.07.29-03.56.25:724][  0]LogUdpMessaging: Display: Work queue size set to 1024.
+[2025.07.29-03.56.25:724][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2025.07.29-03.56.25:725][  0]LogUdpMessaging: Display: Unicast socket bound to '0.0.0.0:63279'.
+[2025.07.29-03.56.25:730][  0]LogUdpMessaging: Display: Added local interface '10.222.45.57' to multicast group '230.0.0.1:6666'
+[2025.07.29-03.56.25:732][  0]LogUdpMessaging: Display: Using asynchronous task graph for message deserialization.
+[2025.07.29-03.56.26:047][  0]LogMetaSound: Display: MetaSound Page Target Initialized to 'Default'
+[2025.07.29-03.56.26:047][  0]LogAudio: Display: Registering Engine Module Parameter Interfaces...
+[2025.07.29-03.56.26:066][  0]LogMetaSound: MetaSound Engine Initialized
+[2025.07.29-03.56.26:578][  0]LogLiveCoding: Display: Successfully initialized, removing startup thread
+[2025.07.29-03.56.26:895][  0]LogNiagaraDebuggerClient: Niagara Debugger Client Initialized | Session: DD509A088967494E800000000000D900 | Instance: 074CDCC5446F70F0335859A4D2A127E9 (SIH-D-3034-20272).
+[2025.07.29-03.56.27:268][  0]LogNNERuntimeORT: Available graphics and compute adapters:
+[2025.07.29-03.56.27:268][  0]LogNNERuntimeORT: Selecting NPU adapter: NVIDIA GeForce RTX 3090
+[2025.07.29-03.56.27:268][  0]LogNNERuntimeORT: MakeRuntimeORTDml:
+[2025.07.29-03.56.27:268][  0]LogNNERuntimeORT:   DirectML:  yes
+[2025.07.29-03.56.27:268][  0]LogNNERuntimeORT:   RHI D3D12: yes
+[2025.07.29-03.56.27:268][  0]LogNNERuntimeORT:   D3D12:     yes
+[2025.07.29-03.56.27:268][  0]LogNNERuntimeORT:   NPU:       yes
+[2025.07.29-03.56.27:268][  0]LogNNERuntimeORT: Interface availability:
+[2025.07.29-03.56.27:268][  0]LogNNERuntimeORT:   GPU: yes
+[2025.07.29-03.56.27:268][  0]LogNNERuntimeORT:   RDG: yes
+[2025.07.29-03.56.27:268][  0]LogNNERuntimeORT:   NPU: yes
+[2025.07.29-03.56.27:268][  0]LogNNERuntimeORT: Available graphics and compute adapters:
+[2025.07.29-03.56.27:268][  0]LogNNERuntimeORT: Selecting NPU adapter: NVIDIA GeForce RTX 3090
+[2025.07.29-03.56.28:580][  0]LogChaosVDEditor: [FChaosVDExtensionsManager::RegisterExtension] Registering CVD Extension [FChaosVDGenericDebugDrawExtension] ...
+[2025.07.29-03.56.28:580][  0]LogChaosVDEditor: [FChaosVDExtensionsManager::RegisterExtension] Registering CVD Extension [FChaosVDAccelerationStructuresExtension] ...
+[2025.07.29-03.56.28:611][  0]LogTimingProfiler: Initialize
+[2025.07.29-03.56.28:611][  0]LogTimingProfiler: OnSessionChanged
+[2025.07.29-03.56.28:611][  0]LoadingProfiler: Initialize
+[2025.07.29-03.56.28:611][  0]LoadingProfiler: OnSessionChanged
+[2025.07.29-03.56.28:611][  0]LogNetworkingProfiler: Initialize
+[2025.07.29-03.56.28:611][  0]LogNetworkingProfiler: OnSessionChanged
+[2025.07.29-03.56.28:611][  0]LogMemoryProfiler: Initialize
+[2025.07.29-03.56.28:611][  0]LogMemoryProfiler: OnSessionChanged
+[2025.07.29-03.56.29:063][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2025.07.29-03.56.29:203][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2025.07.29-03.56.29:203][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2025.07.29-03.56.30:276][  0]LogTemp: OpenXR ignores max viewport resolution in editor to support full HMD resolutions.
+[2025.07.29-03.56.31:845][  0]LogConfig: Applying CVar settings from Section [/Script/NNEDenoiser.NNEDenoiserSettings] File [Engine]
+[2025.07.29-03.56.32:620][  0]SourceControl: Revision control is disabled
+[2025.07.29-03.56.33:231][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Common/ButtonHoverHint.png' error.
+[2025.07.29-03.56.33:231][  0]LogSlate: Could not load file for Slate resource: [../../../Engine/Content/Slate/Common/ButtonHoverHint.png] file: [../../../Engine/Content/Slate/Common/ButtonHoverHint.png]
+[2025.07.29-03.56.33:231][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Icons/doc_16x.png' error.
+[2025.07.29-03.56.33:231][  0]LogSlate: Could not load file for Slate resource: [../../../Engine/Content/Slate/Icons/doc_16x.png] file: [../../../Engine/Content/Slate/Icons/doc_16x.png]
+[2025.07.29-03.56.33:332][  0]SourceControl: Revision control is disabled
+[2025.07.29-03.56.34:732][  0]LogCollectionManager: Loaded 0 collections in 0.001611 seconds
+[2025.07.29-03.56.34:735][  0]LogFileCache: Scanning file cache for directory 'C:/Users/wb.chenyankai01/Documents/Unreal Projects/d_b 5.6/Saved/Collections/' took 0.00s
+[2025.07.29-03.56.34:738][  0]LogFileCache: Scanning file cache for directory 'C:/Users/wb.chenyankai01/Documents/Unreal Projects/d_b 5.6/Content/Developers/wbchenyankai01/Collections/' took 0.00s
+[2025.07.29-03.56.34:740][  0]LogFileCache: Scanning file cache for directory 'C:/Users/wb.chenyankai01/Documents/Unreal Projects/d_b 5.6/Content/Collections/' took 0.00s
+[2025.07.29-03.56.35:052][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_24x.png' error.
+[2025.07.29-03.56.35:052][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_128x.png' error.
+[2025.07.29-03.56.35:052][  0]LogSlate: Could not load file for Slate resource: [../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_24x.png] file: [../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_24x.png]
+[2025.07.29-03.56.35:052][  0]LogSlate: Could not load file for Slate resource: [../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_128x.png] file: [../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_128x.png]
+[2025.07.29-03.56.35:116][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Icons/doc_16x.png' error.
+[2025.07.29-03.56.35:116][  0]LogSlate: Could not load file for Slate resource: [../../../Engine/Content/Slate/Icons/doc_16x.png] file: [../../../Engine/Content/Slate/Icons/doc_16x.png]
+[2025.07.29-03.56.35:116][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Common/ButtonHoverHint.png' error.
+[2025.07.29-03.56.35:116][  0]LogSlate: Could not load file for Slate resource: [../../../Engine/Content/Slate/Common/ButtonHoverHint.png] file: [../../../Engine/Content/Slate/Common/ButtonHoverHint.png]
+[2025.07.29-03.56.35:139][  0]LogEOSSDK: LogEOS: [Boot] EOSSDK Version 1.17.0-41373641 booting at 2025-07-29T03:56:35.139Z using C
+[2025.07.29-03.56.35:140][  0]LogEOSSDK: LogEOS: [Boot] EOSSDK Platform Properties [OS=Windows/10.0.26100.3037.64bit, ClientId=xyza7891REBVsEqSJRRNXmlS7EQHM459, ProductId=86f32f1151354e7cb39c12f8ab2c22a3, SandboxId=a01927f7421a4d4995673fe30ef46945, DeploymentId=a652a72ea1664dcab3a467891eea5f30, ProductName=d_b, ProductVersion=++UE5+Release-5.6-CL-43139311, IsServer=false, Flags=DisableOverlay]
+[2025.07.29-03.56.35:140][  0]LogEOSSDK: LogEOSAnalytics: Start Session (User: ...)
+[2025.07.29-03.56.35:140][  0]LogEOSSDK: LogEOSOverlay: Overlay will not load, because it was explicitly disabled when creating the platform
+[2025.07.29-03.56.35:145][  0]LogEOSSDK: LogEOSAntiCheat: [AntiCheatClient] Anti-cheat client not available. Verify that the game was started using the anti-cheat bootstrapper if you intend to use it.
+[2025.07.29-03.56.35:146][  0]LogEOSSDK: LogEOS: SetApplicationStatus - OldStatus: EOS_AS_Foreground, NewStatus: EOS_AS_Foreground, Current Time: 0001.01.01-00.00.00
+[2025.07.29-03.56.35:146][  0]LogEOSSDK: LogEOS: SetNetworkStatus - OldStatus: EOS_NS_Online, NewStatus: EOS_NS_Online
+[2025.07.29-03.56.35:146][  0]LogEOSSDK: LogEOS: Updating Platform SDK Config, Time: 0.000363
+[2025.07.29-03.56.35:334][  0]LogUObjectArray: 44499 objects as part of root set at end of initial load.
+[2025.07.29-03.56.35:334][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2025.07.29-03.56.35:551][  0]LogEngine: Initializing Engine...
+[2025.07.29-03.56.35:811][  0]LogStylusInput: Initializing StylusInput subsystem.
+[2025.07.29-03.56.35:811][  0]LogTedsSettings: UTedsSettingsEditorSubsystem::Initialize
+[2025.07.29-03.56.36:049][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.11.dll
+[2025.07.29-03.56.36:104][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.12.dll
+[2025.07.29-03.56.36:141][  0]LogChaosDD: Creating Chaos Debug Draw Scene for world Untitled
+[2025.07.29-03.56.36:198][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2025.07.29-03.56.36:198][  0]LogInit: Texture streaming: Enabled
+[2025.07.29-03.56.36:353][  0]LogAnalytics: Display: [UEEditor.Rocket.Release] AnalyticsET::StartSession ( APIServer = https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data. AppVersion = 5.6.0-43139311+++UE5+Release-5.6 )
+[2025.07.29-03.56.36:358][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2025.07.29-03.56.36:436][  0]LogAudio: Display: Loading Default Audio Settings Objects...
+[2025.07.29-03.56.36:436][  0]LogAudio: Display: No default SoundConcurrencyObject specified (or failed to load).
+[2025.07.29-03.56.36:437][  0]LogAudio: Display: Audio Device Manager Initialized
+[2025.07.29-03.56.36:437][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2025.07.29-03.56.36:437][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.07.29-03.56.36:437][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.07.29-03.56.36:437][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.07.29-03.56.36:437][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.07.29-03.56.36:437][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.07.29-03.56.36:437][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.07.29-03.56.36:437][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.07.29-03.56.36:437][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.07.29-03.56.36:437][  0]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.07.29-03.56.36:437][  0]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.07.29-03.56.36:437][  0]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.07.29-03.56.36:491][  0]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.07.29-03.56.36:642][  0]LogAudioMixer: Display: Using Audio Hardware Device 扬声器 (Realtek High Definition Audio)
+[2025.07.29-03.56.36:643][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.07.29-03.56.36:645][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.07.29-03.56.36:645][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.07.29-03.56.36:645][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2025.07.29-03.56.36:645][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.07.29-03.56.36:648][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.07.29-03.56.36:648][  0]LogInit: FAudioDevice initialized with ID 1.
+[2025.07.29-03.56.36:648][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=1
+[2025.07.29-03.56.36:648][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2025.07.29-03.56.36:648][  0]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 1
+[2025.07.29-03.56.36:681][  0]LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+[2025.07.29-03.56.36:685][  0]LogInit: Undo buffer set to 256 MB
+[2025.07.29-03.56.36:685][  0]LogInit: Transaction tracking system initialized
+[2025.07.29-03.56.36:773][  0]LogSourceControl: Display: Uncontrolled Changelist persistency file loaded ../../../../../../Users/wb.chenyankai01/Documents/Unreal Projects/d_b 5.6/Saved/SourceControl/UncontrolledChangelists.json
+[2025.07.29-03.56.37:123][  0]LocalizationService: Localization service is disabled
+[2025.07.29-03.56.37:824][  0]LogFileCache: Scanning file cache for directory 'C:/Users/wb.chenyankai01/Documents/Unreal Projects/d_b 5.6/Content/' took 0.06s
+[2025.07.29-03.56.37:836][  0]LogPython: Python enabled via CVar 'Engine.Python.IsEnabledByDefault'
+[2025.07.29-03.56.37:836][  0]LogPython: Using Python 3.11.8
+[2025.07.29-03.56.37:875][  0]LogPython: Display: No pip-enabled plugins with python dependencies found, skipping
+[2025.07.29-03.56.38:173][  0]LogRenderer: Requested compilation of Path Tracing RTPSOs (8 permutations).
+[2025.07.29-03.56.39:345][  0]LogLevelSequenceEditor: LevelSequenceEditor subsystem initialized.
+[2025.07.29-03.56.39:530][  0]LogEditorDataStorage: Initializing
+[2025.07.29-03.56.39:533][  0]LogEditorDataStorage: Initialized
+[2025.07.29-03.56.39:540][  0]LogAssetRegistry: Display: Triggering cache save on discovery complete
+[2025.07.29-03.56.39:597][  0]LogCore: Display: GameplayInsights module auto-connecting to local trace server...
+[2025.07.29-03.56.39:687][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2025.07.29-03.56.39:691][  0]SourceControl: Revision control is disabled
+[2025.07.29-03.56.39:691][  0]LogUnrealEdMisc: Loading editor; pre map load, took 26.018
+[2025.07.29-03.56.39:692][  0]Cmd: MAP LOAD FILE="../../../../../../Users/wb.chenyankai01/Documents/Unreal Projects/d_b 5.6/Content/Level/MAP_lightTest_wings_all.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.07.29-03.56.39:702][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2025.07.29-03.56.39:702][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.29-03.56.39:720][  0]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.07.29-03.56.39:723][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2025.07.29-03.56.39:930][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'MAP_lightTest_wings_all'.
+[2025.07.29-03.56.39:930][  0]LogChaosDD: Creating Chaos Debug Draw Scene for world MAP_lightTest_wings_all
+[2025.07.29-03.56.39:954][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.07.29-03.56.39:971][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2025.07.29-03.56.39:971][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.07.29-03.56.39:971][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.048ms to complete.
+[2025.07.29-03.56.39:989][  0]LogUnrealEdMisc: Total Editor Startup Time, took 26.317
+[2025.07.29-03.56.40:122][  0]LogPlacementMode: Display: The Asset Registry is not yet fully loaded so some placeable classes might be missing.
+[2025.07.29-03.56.40:251][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.07.29-03.56.40:335][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.07.29-03.56.40:410][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.07.29-03.56.40:485][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.07.29-03.56.40:535][  0]LogPakFile: Initializing PakPlatformFile
+[2025.07.29-03.56.40:536][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.6/FeaturePacks/StarterContent.upack', mount point: 'root:/'
+[2025.07.29-03.56.40:536][  0]LogPakFile: Initializing PakPlatformFile
+[2025.07.29-03.56.40:537][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.6/FeaturePacks/TP_FirstPerson.upack', mount point: 'root:/'
+[2025.07.29-03.56.40:537][  0]LogPakFile: Initializing PakPlatformFile
+[2025.07.29-03.56.40:538][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.6/FeaturePacks/TP_FirstPersonBP.upack', mount point: 'root:/'
+[2025.07.29-03.56.40:538][  0]LogPakFile: Initializing PakPlatformFile
+[2025.07.29-03.56.40:539][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.6/FeaturePacks/TP_HandheldARBP.upack', mount point: 'root:/'
+[2025.07.29-03.56.40:539][  0]LogPakFile: Initializing PakPlatformFile
+[2025.07.29-03.56.40:540][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.6/FeaturePacks/TP_ThirdPerson.upack', mount point: 'root:/'
+[2025.07.29-03.56.40:540][  0]LogPakFile: Initializing PakPlatformFile
+[2025.07.29-03.56.40:541][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.6/FeaturePacks/TP_ThirdPersonBP.upack', mount point: 'root:/'
+[2025.07.29-03.56.40:541][  0]LogPakFile: Initializing PakPlatformFile
+[2025.07.29-03.56.40:541][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.6/FeaturePacks/TP_TopDown.upack', mount point: 'root:/'
+[2025.07.29-03.56.40:541][  0]LogPakFile: Initializing PakPlatformFile
+[2025.07.29-03.56.40:542][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.6/FeaturePacks/TP_TopDownBP.upack', mount point: 'root:/'
+[2025.07.29-03.56.40:542][  0]LogPakFile: Initializing PakPlatformFile
+[2025.07.29-03.56.40:543][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.6/FeaturePacks/TP_VehicleAdvBP.upack', mount point: 'root:/'
+[2025.07.29-03.56.40:543][  0]LogPakFile: Initializing PakPlatformFile
+[2025.07.29-03.56.40:544][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.6/FeaturePacks/TP_VirtualRealityBP.upack', mount point: 'root:/'
+[2025.07.29-03.56.40:638][  0]LogAssetRegistry: Display: Asset registry cache written as 88.2 MiB to ../../../../../../Users/wb.chenyankai01/Documents/Unreal Projects/d_b 5.6/Intermediate/CachedAssetRegistry_*.bin
+[2025.07.29-03.56.41:379][  0]LogSlate: External Image Picker: DecompressImage failed
+[2025.07.29-03.56.41:566][  0]LogSlate: Took 0.000259 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2025.07.29-03.56.41:571][  0]LogSlate: Took 0.000288 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2025.07.29-03.56.41:573][  0]LogSlate: Took 0.000204 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2025.07.29-03.56.41:574][  0]LogSlate: Took 0.000166 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2025.07.29-03.56.41:654][  0]LogSlate: Took 0.000281 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2025.07.29-03.56.41:701][  0]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.07.29-03.56.41:943][  0]LogStall: Startup...
+[2025.07.29-03.56.41:946][  0]LogStall: Startup complete.
+[2025.07.29-03.56.41:979][  0]LogLoad: (Engine Initialization) Total time: 28.31 seconds
+[2025.07.29-03.56.41:990][  0]RenderDocPlugin: Creating dummy input device (for intercepting engine ticks)
+[2025.07.29-03.56.42:742][  0]LogSlate: External Image Picker: DecompressImage failed
+[2025.07.29-03.56.42:903][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2025.07.29-03.56.42:903][  0]LogCsvProfiler: Display: Metadata set : streamingpoolsizemb="1000"
+[2025.07.29-03.56.43:111][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.29-03.56.43:114][  0]LogPython: Display: Running start-up script C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py... started...
+[2025.07.29-03.56.43:158][  0]LogPython: registering <class 'ControlRigWorkflows.workflow_deformation_rig_preset.provider'>
+
+[2025.07.29-03.56.43:165][  0]LogPython: Display: Running start-up script C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py... took 50.375 ms
+[2025.07.29-03.56.43:427][  1]LogAssetRegistry: AssetRegistryGather time 0.1794s: AssetDataDiscovery 0.0253s, AssetDataGather 0.0598s, StoreResults 0.0942s. Wall time 20.4510s.
+	NumCachedDirectories 1709. NumUncachedDirectories 218. NumCachedFiles 10076. NumUncachedFiles 4.
+	BackgroundTickInterruptions 2.
+[2025.07.29-03.56.43:453][  1]LogStreaming: Display: FlushAsyncLoading(360): 1 QueuedPackages, 0 AsyncPackages
+[2025.07.29-03.56.43:465][  1]LogPlacementMode: Display: The Asset Registry is done with its initial scan, the list of placeable classes has been updated.
+[2025.07.29-03.56.43:477][  1]LogText3DEditor: Ignoring distance field font RobotoDistanceField
+[2025.07.29-03.56.43:478][  1]LogText3DEditor: No composite font found for font SmallFont
+[2025.07.29-03.56.43:478][  1]LogText3DEditor: No composite font found for font SmallFont
+[2025.07.29-03.56.43:478][  1]LogText3DEditor: No composite font found for font TinyFont
+[2025.07.29-03.56.43:487][  1]LogText3DEditor: Ignoring distance field font VRText_RobotoLarge
+[2025.07.29-03.56.43:539][  1]LogText3DEditor: No composite font found for font MSYH_Font
+[2025.07.29-03.56.44:751][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\ARIAL.TTF)
+[2025.07.29-03.56.44:752][  1]LogSlate: FontCache flush requested. Reason: UFontFace::PostEditChangeProperty
+[2025.07.29-03.56.44:754][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\ARIALI.TTF)
+[2025.07.29-03.56.44:757][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\ARIALBD.TTF)
+[2025.07.29-03.56.44:759][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\ARIALBI.TTF)
+[2025.07.29-03.56.44:760][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\ARIBLK.TTF)
+[2025.07.29-03.56.44:762][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\BAHNSCHRIFT.TTF)
+[2025.07.29-03.56.44:773][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\CALIBRIL.TTF)
+[2025.07.29-03.56.44:780][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\CALIBRILI.TTF)
+[2025.07.29-03.56.44:784][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\CALIBRI.TTF)
+[2025.07.29-03.56.44:792][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\CALIBRII.TTF)
+[2025.07.29-03.56.44:801][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\CALIBRIB.TTF)
+[2025.07.29-03.56.44:808][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\CALIBRIZ.TTF)
+[2025.07.29-03.56.44:812][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\CAMBRIAI.TTF)
+[2025.07.29-03.56.44:814][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\CAMBRIAB.TTF)
+[2025.07.29-03.56.44:817][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\CAMBRIAZ.TTF)
+[2025.07.29-03.56.44:819][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\CANDARAL.TTF)
+[2025.07.29-03.56.44:820][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\CANDARALI.TTF)
+[2025.07.29-03.56.44:820][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\CANDARA.TTF)
+[2025.07.29-03.56.44:821][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\CANDARAI.TTF)
+[2025.07.29-03.56.44:822][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\CANDARAB.TTF)
+[2025.07.29-03.56.44:824][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\CANDARAZ.TTF)
+[2025.07.29-03.56.44:825][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\COMIC.TTF)
+[2025.07.29-03.56.44:826][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\COMICI.TTF)
+[2025.07.29-03.56.44:828][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\COMICBD.TTF)
+[2025.07.29-03.56.44:829][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\COMICZ.TTF)
+[2025.07.29-03.56.44:831][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\CONSOLA.TTF)
+[2025.07.29-03.56.44:833][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\CONSOLAI.TTF)
+[2025.07.29-03.56.44:835][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\CONSOLAB.TTF)
+[2025.07.29-03.56.44:836][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\CONSOLAZ.TTF)
+[2025.07.29-03.56.44:838][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\CONSTAN.TTF)
+[2025.07.29-03.56.44:840][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\CONSTANI.TTF)
+[2025.07.29-03.56.44:841][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\CONSTANB.TTF)
+[2025.07.29-03.56.44:843][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\CONSTANZ.TTF)
+[2025.07.29-03.56.44:844][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\CORBELL.TTF)
+[2025.07.29-03.56.44:844][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\CORBELLI.TTF)
+[2025.07.29-03.56.44:846][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\CORBEL.TTF)
+[2025.07.29-03.56.44:847][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\CORBELI.TTF)
+[2025.07.29-03.56.44:848][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\CORBELB.TTF)
+[2025.07.29-03.56.44:849][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\CORBELZ.TTF)
+[2025.07.29-03.56.44:852][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\COUR.TTF)
+[2025.07.29-03.56.44:855][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\COURI.TTF)
+[2025.07.29-03.56.44:857][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\COURBD.TTF)
+[2025.07.29-03.56.44:859][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\COURBI.TTF)
+[2025.07.29-03.56.44:862][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\EBRIMA.TTF)
+[2025.07.29-03.56.44:865][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\EBRIMABD.TTF)
+[2025.07.29-03.56.44:866][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\FRAMD.TTF)
+[2025.07.29-03.56.44:867][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\FRAMDIT.TTF)
+[2025.07.29-03.56.44:871][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\GABRIOLA.TTF)
+[2025.07.29-03.56.44:873][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\GADUGI.TTF)
+[2025.07.29-03.56.44:874][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\GADUGIB.TTF)
+[2025.07.29-03.56.44:875][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\GEORGIA.TTF)
+[2025.07.29-03.56.44:876][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\GEORGIAI.TTF)
+[2025.07.29-03.56.44:877][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\GEORGIAB.TTF)
+[2025.07.29-03.56.44:878][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\GEORGIAZ.TTF)
+[2025.07.29-03.56.44:880][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\IMPACT.TTF)
+[2025.07.29-03.56.44:882][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\INKFREE.TTF)
+[2025.07.29-03.56.44:883][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\JAVATEXT.TTF)
+[2025.07.29-03.56.44:885][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\LEELUISL.TTF)
+[2025.07.29-03.56.44:886][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\LEELAWUI.TTF)
+[2025.07.29-03.56.44:887][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\LEELAUIB.TTF)
+[2025.07.29-03.56.44:888][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\LUCON.TTF)
+[2025.07.29-03.56.44:890][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\L_10646.TTF)
+[2025.07.29-03.56.44:899][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\MALGUNSL.TTF)
+[2025.07.29-03.56.44:928][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\MALGUN.TTF)
+[2025.07.29-03.56.44:957][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\MALGUNBD.TTF)
+[2025.07.29-03.56.44:972][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\HIMALAYA.TTF)
+[2025.07.29-03.56.44:973][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\NTAILU.TTF)
+[2025.07.29-03.56.44:974][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\NTAILUB.TTF)
+[2025.07.29-03.56.44:975][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\PHAGSPA.TTF)
+[2025.07.29-03.56.44:976][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\PHAGSPAB.TTF)
+[2025.07.29-03.56.44:978][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\MICROSS.TTF)
+[2025.07.29-03.56.44:979][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\TAILE.TTF)
+[2025.07.29-03.56.44:980][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\TAILEB.TTF)
+[2025.07.29-03.56.44:981][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\MSYI.TTF)
+[2025.07.29-03.56.44:982][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\MONBAITI.TTF)
+[2025.07.29-03.56.44:983][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\MVBOLI.TTF)
+[2025.07.29-03.56.44:985][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\MMRTEXT.TTF)
+[2025.07.29-03.56.44:986][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\MMRTEXTB.TTF)
+[2025.07.29-03.56.44:988][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\PALA.TTF)
+[2025.07.29-03.56.44:990][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\PALAI.TTF)
+[2025.07.29-03.56.44:992][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\PALAB.TTF)
+[2025.07.29-03.56.44:993][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\PALABI.TTF)
+[2025.07.29-03.56.45:001][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\SANSSERIFCOLLECTION.TTF)
+[2025.07.29-03.56.45:004][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\SEGOEICONS.TTF)
+[2025.07.29-03.56.45:006][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\SEGMDL2.TTF)
+[2025.07.29-03.56.45:007][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\SEGOEPR.TTF)
+[2025.07.29-03.56.45:008][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\SEGOEPRB.TTF)
+[2025.07.29-03.56.45:010][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\SEGOESC.TTF)
+[2025.07.29-03.56.45:012][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\SEGOESCB.TTF)
+[2025.07.29-03.56.45:015][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\SEGOEUIL.TTF)
+[2025.07.29-03.56.45:017][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\SEGUILI.TTF)
+[2025.07.29-03.56.45:019][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\SEGOEUISL.TTF)
+[2025.07.29-03.56.45:020][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\SEGUISLI.TTF)
+[2025.07.29-03.56.45:023][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\SEGOEUI.TTF)
+[2025.07.29-03.56.45:025][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\SEGOEUII.TTF)
+[2025.07.29-03.56.45:027][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\SEGUISB.TTF)
+[2025.07.29-03.56.45:029][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\SEGUISBI.TTF)
+[2025.07.29-03.56.45:032][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\SEGOEUIB.TTF)
+[2025.07.29-03.56.45:034][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\SEGOEUIZ.TTF)
+[2025.07.29-03.56.45:035][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\SEGUIBL.TTF)
+[2025.07.29-03.56.45:036][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\SEGUIBLI.TTF)
+[2025.07.29-03.56.45:061][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\SEGUIEMJ.TTF)
+[2025.07.29-03.56.45:073][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\SEGUIHIS.TTF)
+[2025.07.29-03.56.45:079][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\SEGUISYM.TTF)
+[2025.07.29-03.56.45:086][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\SEGUIVAR.TTF)
+[2025.07.29-03.56.45:128][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\SIMSUNB.TTF)
+[2025.07.29-03.56.45:144][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\SITKAVF.TTF)
+[2025.07.29-03.56.45:146][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\SITKAVF-ITALIC.TTF)
+[2025.07.29-03.56.45:148][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\SYLFAEN.TTF)
+[2025.07.29-03.56.45:149][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\SYMBOL.TTF)
+[2025.07.29-03.56.45:152][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\TAHOMA.TTF)
+[2025.07.29-03.56.45:155][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\TAHOMABD.TTF)
+[2025.07.29-03.56.45:158][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\TIMES.TTF)
+[2025.07.29-03.56.45:162][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\TIMESI.TTF)
+[2025.07.29-03.56.45:165][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\TIMESBD.TTF)
+[2025.07.29-03.56.45:168][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\TIMESBI.TTF)
+[2025.07.29-03.56.45:170][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\TREBUC.TTF)
+[2025.07.29-03.56.45:171][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\TREBUCIT.TTF)
+[2025.07.29-03.56.45:172][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\TREBUCBD.TTF)
+[2025.07.29-03.56.45:174][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\TREBUCBI.TTF)
+[2025.07.29-03.56.45:175][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\VERDANA.TTF)
+[2025.07.29-03.56.45:177][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\VERDANAI.TTF)
+[2025.07.29-03.56.45:178][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\VERDANAB.TTF)
+[2025.07.29-03.56.45:179][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\VERDANAZ.TTF)
+[2025.07.29-03.56.45:180][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\WEBDINGS.TTF)
+[2025.07.29-03.56.45:181][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\WINGDING.TTF)
+[2025.07.29-03.56.45:211][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\DENGL.TTF)
+[2025.07.29-03.56.45:250][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\DENG.TTF)
+[2025.07.29-03.56.45:288][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\DENGB.TTF)
+[2025.07.29-03.56.45:331][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\SIMFANG.TTF)
+[2025.07.29-03.56.45:361][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\SIMKAI.TTF)
+[2025.07.29-03.56.45:389][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\SIMHEI.TTF)
+[2025.07.29-03.56.45:402][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\SIMSUNEXTG.TTF)
+[2025.07.29-03.56.45:406][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\LIBERATIONSANS-REGULAR.TTF)
+[2025.07.29-03.56.45:407][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\LIBERATIONSANSNARROW-REGULAR.TTF)
+[2025.07.29-03.56.45:408][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\LIBERATIONSANS-ITALIC.TTF)
+[2025.07.29-03.56.45:409][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\LIBERATIONSANSNARROW-ITALIC.TTF)
+[2025.07.29-03.56.45:411][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\LIBERATIONSANS-BOLD.TTF)
+[2025.07.29-03.56.45:412][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\LIBERATIONSANSNARROW-BOLD.TTF)
+[2025.07.29-03.56.45:413][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\LIBERATIONSANS-BOLDITALIC.TTF)
+[2025.07.29-03.56.45:414][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\LIBERATIONSANSNARROW-BOLDITALIC.TTF)
+[2025.07.29-03.56.45:415][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\DAVIDLIBRE-REGULAR.TTF)
+[2025.07.29-03.56.45:416][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\DAVIDLIBRE-BOLD.TTF)
+[2025.07.29-03.56.45:418][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\CARLITO-REGULAR.TTF)
+[2025.07.29-03.56.45:420][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\CARLITO-ITALIC.TTF)
+[2025.07.29-03.56.45:422][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\CARLITO-BOLD.TTF)
+[2025.07.29-03.56.45:424][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\CARLITO-BOLDITALIC.TTF)
+[2025.07.29-03.56.45:426][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\GENBASR.TTF)
+[2025.07.29-03.56.45:427][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\GENBASI.TTF)
+[2025.07.29-03.56.45:428][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\GENBASB.TTF)
+[2025.07.29-03.56.45:429][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\GENBASBI.TTF)
+[2025.07.29-03.56.45:430][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\LIBERATIONMONO-REGULAR.TTF)
+[2025.07.29-03.56.45:432][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\LIBERATIONMONO-ITALIC.TTF)
+[2025.07.29-03.56.45:433][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\LIBERATIONMONO-BOLD.TTF)
+[2025.07.29-03.56.45:435][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\LIBERATIONMONO-BOLDITALIC.TTF)
+[2025.07.29-03.56.45:436][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\ALEF-REGULAR.TTF)
+[2025.07.29-03.56.45:436][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\ALEF-BOLD.TTF)
+[2025.07.29-03.56.45:437][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\REEMKUFI-REGULAR.TTF)
+[2025.07.29-03.56.45:438][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\REEMKUFI-BOLD.TTF)
+[2025.07.29-03.56.45:439][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\SOURCESANSPRO-EXTRALIGHT.TTF)
+[2025.07.29-03.56.45:440][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\SOURCESANSPRO-EXTRALIGHTIT.TTF)
+[2025.07.29-03.56.45:440][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\SOURCESANSPRO-LIGHT.TTF)
+[2025.07.29-03.56.45:441][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\SOURCESANSPRO-LIGHTIT.TTF)
+[2025.07.29-03.56.45:442][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\SOURCESANSPRO-REGULAR.TTF)
+[2025.07.29-03.56.45:443][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\SOURCESANSPRO-IT.TTF)
+[2025.07.29-03.56.45:444][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\SOURCESANSPRO-SEMIBOLD.TTF)
+[2025.07.29-03.56.45:445][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\SOURCESANSPRO-SEMIBOLDIT.TTF)
+[2025.07.29-03.56.45:446][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\SOURCESANSPRO-BOLD.TTF)
+[2025.07.29-03.56.45:446][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\SOURCESANSPRO-BOLDIT.TTF)
+[2025.07.29-03.56.45:448][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\SOURCESANSPRO-BLACK.TTF)
+[2025.07.29-03.56.45:448][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\SOURCESANSPRO-BLACKIT.TTF)
+[2025.07.29-03.56.45:449][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\DAVIDCLM-MEDIUM.OTF)
+[2025.07.29-03.56.45:450][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\DAVIDCLM-BOLD.OTF)
+[2025.07.29-03.56.45:455][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\LINBIOLINUM_R_G.TTF)
+[2025.07.29-03.56.45:459][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\LINBIOLINUM_RI_G.TTF)
+[2025.07.29-03.56.45:465][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\LINBIOLINUM_RB_G.TTF)
+[2025.07.29-03.56.45:468][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\SCHEHERAZADE-REGULAR.TTF)
+[2025.07.29-03.56.45:470][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\SCHEHERAZADE-BOLD.TTF)
+[2025.07.29-03.56.45:471][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\DEJAVUMATHTEXGYRE.TTF)
+[2025.07.29-03.56.45:473][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\AMIRI-REGULAR.TTF)
+[2025.07.29-03.56.45:475][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\AMIRI-ITALIC.TTF)
+[2025.07.29-03.56.45:476][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\AMIRI-BOLD.TTF)
+[2025.07.29-03.56.45:478][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\AMIRI-BOLDITALIC.TTF)
+[2025.07.29-03.56.45:479][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\OPENS___.TTF)
+[2025.07.29-03.56.45:479][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\CALADEA-REGULAR.TTF)
+[2025.07.29-03.56.45:481][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\CALADEA-ITALIC.TTF)
+[2025.07.29-03.56.45:481][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\CALADEA-BOLD.TTF)
+[2025.07.29-03.56.45:482][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\CALADEA-BOLDITALIC.TTF)
+[2025.07.29-03.56.45:483][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\NOTOKUFIARABIC-REGULAR.TTF)
+[2025.07.29-03.56.45:483][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\NOTOKUFIARABIC-BOLD.TTF)
+[2025.07.29-03.56.45:484][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\AMIRIQURAN.TTF)
+[2025.07.29-03.56.45:485][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\DAVIDCLM-BOLDITALIC.OTF)
+[2025.07.29-03.56.45:485][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\DAVIDCLM-MEDIUMITALIC.OTF)
+[2025.07.29-03.56.45:486][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\FRANKRUEHLCLM-MEDIUM.TTF)
+[2025.07.29-03.56.45:486][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\FRANKRUEHLCLM-BOLD.TTF)
+[2025.07.29-03.56.45:487][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\FRANKRUEHLCLM-BOLDOBLIQUE.TTF)
+[2025.07.29-03.56.45:488][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\FRANKRUEHLCLM-MEDIUMOBLIQUE.TTF)
+[2025.07.29-03.56.45:488][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\MIRIAMCLM-BOOK.TTF)
+[2025.07.29-03.56.45:488][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\MIRIAMCLM-BOLD.TTF)
+[2025.07.29-03.56.45:489][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\MIRIAMMONOCLM-BOOK.TTF)
+[2025.07.29-03.56.45:489][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\MIRIAMMONOCLM-BOOKOBLIQUE.TTF)
+[2025.07.29-03.56.45:490][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\MIRIAMMONOCLM-BOLD.TTF)
+[2025.07.29-03.56.45:490][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\MIRIAMMONOCLM-BOLDOBLIQUE.TTF)
+[2025.07.29-03.56.45:492][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\NACHLIELICLM-LIGHT.OTF)
+[2025.07.29-03.56.45:492][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\NACHLIELICLM-BOLD.OTF)
+[2025.07.29-03.56.45:493][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\NACHLIELICLM-BOLDOBLIQUE.OTF)
+[2025.07.29-03.56.45:493][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\NACHLIELICLM-LIGHTOBLIQUE.OTF)
+[2025.07.29-03.56.45:495][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\DEJAVUSANS-EXTRALIGHT.TTF)
+[2025.07.29-03.56.45:497][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\DEJAVUSANS.TTF)
+[2025.07.29-03.56.45:499][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\DEJAVUSANSCONDENSED.TTF)
+[2025.07.29-03.56.45:501][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\DEJAVUSANS-OBLIQUE.TTF)
+[2025.07.29-03.56.45:503][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\DEJAVUSANSCONDENSED-OBLIQUE.TTF)
+[2025.07.29-03.56.45:505][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\DEJAVUSANS-BOLD.TTF)
+[2025.07.29-03.56.45:507][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\DEJAVUSANSCONDENSED-BOLD.TTF)
+[2025.07.29-03.56.45:509][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\DEJAVUSANS-BOLDOBLIQUE.TTF)
+[2025.07.29-03.56.45:511][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\DEJAVUSANSCONDENSED-BOLDOBLIQUE.TTF)
+[2025.07.29-03.56.45:514][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\DEJAVUSANSMONO.TTF)
+[2025.07.29-03.56.45:515][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\DEJAVUSANSMONO-OBLIQUE.TTF)
+[2025.07.29-03.56.45:516][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\DEJAVUSANSMONO-BOLD.TTF)
+[2025.07.29-03.56.45:517][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\DEJAVUSANSMONO-BOLDOBLIQUE.TTF)
+[2025.07.29-03.56.45:519][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\DEJAVUSERIF.TTF)
+[2025.07.29-03.56.45:520][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\DEJAVUSERIFCONDENSED.TTF)
+[2025.07.29-03.56.45:522][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\DEJAVUSERIF-ITALIC.TTF)
+[2025.07.29-03.56.45:523][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\DEJAVUSERIFCONDENSED-ITALIC.TTF)
+[2025.07.29-03.56.45:525][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\DEJAVUSERIF-BOLD.TTF)
+[2025.07.29-03.56.45:526][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\DEJAVUSERIFCONDENSED-BOLD.TTF)
+[2025.07.29-03.56.45:528][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\DEJAVUSERIF-BOLDITALIC.TTF)
+[2025.07.29-03.56.45:529][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\DEJAVUSERIFCONDENSED-BOLDITALIC.TTF)
+[2025.07.29-03.56.45:531][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\GENBKBASR.TTF)
+[2025.07.29-03.56.45:532][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\GENBKBASI.TTF)
+[2025.07.29-03.56.45:533][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\GENBKBASB.TTF)
+[2025.07.29-03.56.45:534][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\GENBKBASBI.TTF)
+[2025.07.29-03.56.45:536][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\LIBERATIONSERIF-REGULAR.TTF)
+[2025.07.29-03.56.45:538][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\LIBERATIONSERIF-ITALIC.TTF)
+[2025.07.29-03.56.45:539][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\LIBERATIONSERIF-BOLD.TTF)
+[2025.07.29-03.56.45:540][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\LIBERATIONSERIF-BOLDITALIC.TTF)
+[2025.07.29-03.56.45:545][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\LINLIBERTINE_DR_G.TTF)
+[2025.07.29-03.56.45:552][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\LINLIBERTINE_R_G.TTF)
+[2025.07.29-03.56.45:558][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\LINLIBERTINE_RI_G.TTF)
+[2025.07.29-03.56.45:562][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\LINLIBERTINE_RZ_G.TTF)
+[2025.07.29-03.56.45:567][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\LINLIBERTINE_RZI_G.TTF)
+[2025.07.29-03.56.45:572][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\LINLIBERTINE_RB_G.TTF)
+[2025.07.29-03.56.45:577][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\LINLIBERTINE_RBI_G.TTF)
+[2025.07.29-03.56.45:580][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\FRANKRUHLHOFSHI-REGULAR.OTF)
+[2025.07.29-03.56.45:580][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\FRANKRUHLHOFSHI-BOLD.OTF)
+[2025.07.29-03.56.45:581][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\MIRIAMLIBRE-REGULAR.OTF)
+[2025.07.29-03.56.45:581][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\MIRIAMLIBRE-BOLD.OTF)
+[2025.07.29-03.56.45:582][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\RUBIK-REGULAR.TTF)
+[2025.07.29-03.56.45:583][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\RUBIK-ITALIC.TTF)
+[2025.07.29-03.56.45:584][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\RUBIK-BOLD.TTF)
+[2025.07.29-03.56.45:585][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\RUBIK-BOLDITALIC.TTF)
+[2025.07.29-03.56.45:586][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\NOTOMONO-REGULAR.TTF)
+[2025.07.29-03.56.45:587][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\NOTONASKHARABIC-REGULAR.TTF)
+[2025.07.29-03.56.45:588][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\NOTONASKHARABIC-BOLD.TTF)
+[2025.07.29-03.56.45:590][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\NOTONASKHARABICUI-REGULAR.TTF)
+[2025.07.29-03.56.45:591][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\NOTONASKHARABICUI-BOLD.TTF)
+[2025.07.29-03.56.45:593][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\NOTOSANS-LIGHT.TTF)
+[2025.07.29-03.56.45:594][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\NOTOSANS-LIGHTITALIC.TTF)
+[2025.07.29-03.56.45:596][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\NOTOSANS-REGULAR.TTF)
+[2025.07.29-03.56.45:597][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\NOTOSANS-CONDENSED.TTF)
+[2025.07.29-03.56.45:599][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\NOTOSANS-ITALIC.TTF)
+[2025.07.29-03.56.45:601][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\NOTOSANS-CONDENSEDITALIC.TTF)
+[2025.07.29-03.56.45:603][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\NOTOSANS-BOLD.TTF)
+[2025.07.29-03.56.45:604][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\NOTOSANS-CONDENSEDBOLD.TTF)
+[2025.07.29-03.56.45:606][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\NOTOSANS-BOLDITALIC.TTF)
+[2025.07.29-03.56.45:607][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\NOTOSANS-CONDENSEDBOLDITALIC.TTF)
+[2025.07.29-03.56.45:609][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\NOTOSANSARABIC-REGULAR.TTF)
+[2025.07.29-03.56.45:610][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\NOTOSANSARABIC-BOLD.TTF)
+[2025.07.29-03.56.45:610][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\NOTOSANSARABICUI-REGULAR.TTF)
+[2025.07.29-03.56.45:611][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\NOTOSANSARABICUI-BOLD.TTF)
+[2025.07.29-03.56.45:612][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\NOTOSANSARMENIAN-REGULAR.TTF)
+[2025.07.29-03.56.45:612][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\NOTOSANSARMENIAN-BOLD.TTF)
+[2025.07.29-03.56.45:613][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\NOTOSANSGEORGIAN-REGULAR.TTF)
+[2025.07.29-03.56.45:613][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\NOTOSANSGEORGIAN-BOLD.TTF)
+[2025.07.29-03.56.45:614][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\NOTOSANSHEBREW-REGULAR.TTF)
+[2025.07.29-03.56.45:614][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\NOTOSANSHEBREW-BOLD.TTF)
+[2025.07.29-03.56.45:615][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\NOTOSANSLAO-REGULAR.TTF)
+[2025.07.29-03.56.45:615][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\NOTOSANSLAO-BOLD.TTF)
+[2025.07.29-03.56.45:616][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\NOTOSANSLISU-REGULAR.TTF)
+[2025.07.29-03.56.45:618][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\NOTOSERIF-LIGHT.TTF)
+[2025.07.29-03.56.45:620][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\NOTOSERIF-LIGHTITALIC.TTF)
+[2025.07.29-03.56.45:622][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\NOTOSERIF-REGULAR.TTF)
+[2025.07.29-03.56.45:624][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\NOTOSERIF-CONDENSED.TTF)
+[2025.07.29-03.56.45:626][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\NOTOSERIF-ITALIC.TTF)
+[2025.07.29-03.56.45:628][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\NOTOSERIF-CONDENSEDITALIC.TTF)
+[2025.07.29-03.56.45:630][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\NOTOSERIF-BOLD.TTF)
+[2025.07.29-03.56.45:631][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\NOTOSERIF-CONDENSEDBOLD.TTF)
+[2025.07.29-03.56.45:633][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\NOTOSERIF-BOLDITALIC.TTF)
+[2025.07.29-03.56.45:635][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\NOTOSERIF-CONDENSEDBOLDITALIC.TTF)
+[2025.07.29-03.56.45:637][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\NOTOSERIFARMENIAN-REGULAR.TTF)
+[2025.07.29-03.56.45:637][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\NOTOSERIFARMENIAN-BOLD.TTF)
+[2025.07.29-03.56.45:638][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\NOTOSERIFGEORGIAN-REGULAR.TTF)
+[2025.07.29-03.56.45:638][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\NOTOSERIFGEORGIAN-BOLD.TTF)
+[2025.07.29-03.56.45:639][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\NOTOSERIFHEBREW-REGULAR.TTF)
+[2025.07.29-03.56.45:639][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\NOTOSERIFHEBREW-BOLD.TTF)
+[2025.07.29-03.56.45:640][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\NOTOSERIFLAO-REGULAR.TTF)
+[2025.07.29-03.56.45:640][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\NOTOSERIFLAO-BOLD.TTF)
+[2025.07.29-03.56.45:642][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\CASCADIACODE.TTF)
+[2025.07.29-03.56.45:644][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\PROGRAM FILES\WINDOWSAPPS\MICROSOFT.WINDOWSTERMINAL_1.22.11141.0_X64__8WEKYB3D8BBWE\CASCADIACODEITALIC.TTF)
+[2025.07.29-03.56.45:646][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\CASCADIAMONO.TTF)
+[2025.07.29-03.56.45:647][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\PROGRAM FILES\WINDOWSAPPS\MICROSOFT.WINDOWSTERMINAL_1.22.11141.0_X64__8WEKYB3D8BBWE\CASCADIAMONOITALIC.TTF)
+[2025.07.29-03.56.45:649][  1]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\WINDOWS\FONTS\MARLETT.TTF)
+[2025.07.29-03.56.45:650][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000000 seconds (updated 0 objects)
+[2025.07.29-03.56.45:650][  1]LogSourceControl: Uncontrolled asset discovery started...
+[2025.07.29-03.56.45:868][  1]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.29-03.56.45:879][  2]LogSlate: Window 'Project Settings' being destroyed
+[2025.07.29-03.56.45:887][  2]LogSlate: Window 'Project Settings' being destroyed
+[2025.07.29-03.56.45:961][  2]LogSlate: Took 0.000216 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2025.07.29-03.56.45:971][  2]LogSlate: Took 0.000530 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2025.07.29-03.56.45:976][  2]LogSlate: Took 0.000253 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2025.07.29-03.56.45:977][  2]LogSlate: Took 0.000183 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2025.07.29-03.56.45:989][  2]LogEOSSDK: LogEOS: SDK Config Platform Update Request Successful, Time: 10.725748
+[2025.07.29-03.56.45:990][  2]LogEOSSDK: LogEOSAnalytics: EOS SDK Analytics disabled for route [1].
+[2025.07.29-03.56.45:992][  2]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 10.842780
+[2025.07.29-03.56.46:007][  3]LogRenderer: Using fallback RTPSO
+[2025.07.29-03.56.46:033][  5]LogRenderer: Using fallback RTPSO
+[2025.07.29-03.56.46:219][  7]LogRenderer: Using fallback RTPSO
+[2025.07.29-03.56.46:288][ 10]LogEOSSDK: LogEOSAnalytics: Start Session (User: ...)
+[2025.07.29-03.56.46:600][ 29]LogEOSSDK: LogEOS: SDK Config Product Update Request Successful, Time: 11.368004
+[2025.07.29-03.56.46:602][ 29]LogEOSSDK: LogEOS: SDK Config Data - Watermark: 1327463752
+[2025.07.29-03.56.46:602][ 29]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 11.368004, Update Interval: 305.976746
+[2025.07.29-03.56.46:784][ 48]LogSourceControl: Uncontrolled asset discovery finished in 1.13331 seconds (Found 10053 uncontrolled assets)
+[2025.07.29-03.56.52:840][586]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_0
+[2025.07.29-03.56.53:012][590]LogRenderer: Using fallback RTPSO
+[2025.07.29-03.56.53:019][591]LogRenderer: Using fallback RTPSO
+[2025.07.29-03.56.59:086][125]LogWindowsTextInputMethodSystem: Activated input method: 简体中文(中国大陆) - 微软拼音 (TSF IME).
+[2025.07.29-03.57.01:767][444]LogSlate: Took 0.000208 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2025.07.29-03.57.01:819][444]LogOutputDevice: Warning: 
+
+Script Stack (0 frames) :
+
+[2025.07.29-03.57.01:959][444]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.140 s
+[2025.07.29-03.57.01:960][444]LogOutputDevice: Error: === Handled ensure: ===
+[2025.07.29-03.57.01:960][444]LogOutputDevice: Error: 
+[2025.07.29-03.57.01:960][444]LogOutputDevice: Error: Ensure condition failed: (((HRESULT)(Result)) >= 0)  [File:D:\build\++UE5\Sync\Engine\Source\Editor\SwarmInterface\Private\SwarmInterface.cpp] [Line: 547] 
+[2025.07.29-03.57.01:960][444]LogOutputDevice: Error: Invalid Swarm version.
+[2025.07.29-03.57.01:960][444]LogOutputDevice: Error: Stack: 
+[2025.07.29-03.57.01:960][444]LogOutputDevice: Error: [Callstack] 0x00007ffd8b0db07d UnrealEditor-SwarmInterface.dll!UnknownFunction []
+[2025.07.29-03.57.01:960][444]LogOutputDevice: Error: [Callstack] 0x00007ffd8b0d7137 UnrealEditor-SwarmInterface.dll!UnknownFunction []
+[2025.07.29-03.57.01:960][444]LogOutputDevice: Error: [Callstack] 0x00007ffce47c15e1 UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2025.07.29-03.57.01:960][444]LogOutputDevice: Error: [Callstack] 0x00007ffce479a3b5 UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2025.07.29-03.57.01:960][444]LogOutputDevice: Error: [Callstack] 0x00007ffce47c2767 UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2025.07.29-03.57.01:960][444]LogOutputDevice: Error: [Callstack] 0x00007ffce479a81e UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2025.07.29-03.57.01:960][444]LogOutputDevice: Error: [Callstack] 0x00007ffce3cb1b5e UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2025.07.29-03.57.01:960][444]LogOutputDevice: Error: [Callstack] 0x00007ffcd871dc9e UnrealEditor-LevelEditor.dll!UnknownFunction []
+[2025.07.29-03.57.01:960][444]LogOutputDevice: Error: [Callstack] 0x00007ffcd8745f07 UnrealEditor-LevelEditor.dll!UnknownFunction []
+[2025.07.29-03.57.01:960][444]LogOutputDevice: Error: [Callstack] 0x00007ffd7d89d5c5 UnrealEditor-Slate.dll!UnknownFunction []
+[2025.07.29-03.57.01:960][444]LogOutputDevice: Error: [Callstack] 0x00007ffd7d89d741 UnrealEditor-Slate.dll!UnknownFunction []
+[2025.07.29-03.57.01:960][444]LogOutputDevice: Error: [Callstack] 0x00007ffd7d9c4fbd UnrealEditor-Slate.dll!UnknownFunction []
+[2025.07.29-03.57.01:960][444]LogOutputDevice: Error: [Callstack] 0x00007ffd7d9ca580 UnrealEditor-Slate.dll!UnknownFunction []
+[2025.07.29-03.57.01:960][444]LogOutputDevice: Error: [Callstack] 0x00007ffd7d99af1a UnrealEditor-Slate.dll!UnknownFunction []
+[2025.07.29-03.57.01:960][444]LogOutputDevice: Error: [Callstack] 0x00007ffd7da295fe UnrealEditor-Slate.dll!UnknownFunction []
+[2025.07.29-03.57.01:960][444]LogOutputDevice: Error: [Callstack] 0x00007ffd7da481c2 UnrealEditor-Slate.dll!UnknownFunction []
+[2025.07.29-03.57.01:960][444]LogOutputDevice: Error: [Callstack] 0x00007ffd7d9cce29 UnrealEditor-Slate.dll!UnknownFunction []
+[2025.07.29-03.57.01:960][444]LogOutputDevice: Error: [Callstack] 0x00007ffd7d7dbe6b UnrealEditor-Slate.dll!UnknownFunction []
+[2025.07.29-03.57.01:960][444]LogOutputDevice: Error: [Callstack] 0x00007ffd7d7c743d UnrealEditor-Slate.dll!UnknownFunction []
+[2025.07.29-03.57.01:960][444]LogOutputDevice: Error: [Callstack] 0x00007ffd7d821ec8 UnrealEditor-Slate.dll!UnknownFunction []
+[2025.07.29-03.57.01:960][444]LogOutputDevice: Error: [Callstack] 0x00007ffd7d8113bb UnrealEditor-Slate.dll!UnknownFunction []
+[2025.07.29-03.57.01:960][444]LogOutputDevice: Error: [Callstack] 0x00007ffd7d804091 UnrealEditor-Slate.dll!UnknownFunction []
+[2025.07.29-03.57.01:960][444]LogOutputDevice: Error: [Callstack] 0x00007ffda203f956 UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2025.07.29-03.57.01:960][444]LogOutputDevice: Error: [Callstack] 0x00007ffda2027137 UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2025.07.29-03.57.01:960][444]LogOutputDevice: Error: [Callstack] 0x00007ffda204299c UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2025.07.29-03.57.01:960][444]LogOutputDevice: Error: [Callstack] 0x00007ffda2021171 UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2025.07.29-03.57.01:960][444]LogOutputDevice: Error: [Callstack] 0x00007ffdec49b643 USER32.dll!UnknownFunction []
+[2025.07.29-03.57.01:960][444]LogOutputDevice: Error: [Callstack] 0x00007ffdec4991cd USER32.dll!UnknownFunction []
+[2025.07.29-03.57.01:960][444]LogOutputDevice: Error: [Callstack] 0x00007ffda2062316 UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2025.07.29-03.57.01:960][444]LogOutputDevice: Error: [Callstack] 0x00007ff64724871b UnrealEditor.exe!UnknownFunction []
+[2025.07.29-03.57.01:960][444]LogOutputDevice: Error: [Callstack] 0x00007ff64726e5ac UnrealEditor.exe!UnknownFunction []
+[2025.07.29-03.57.01:960][444]LogOutputDevice: Error: [Callstack] 0x00007ff64726e6ba UnrealEditor.exe!UnknownFunction []
+[2025.07.29-03.57.01:960][444]LogOutputDevice: Error: [Callstack] 0x00007ff64727209e UnrealEditor.exe!UnknownFunction []
+[2025.07.29-03.57.01:960][444]LogOutputDevice: Error: [Callstack] 0x00007ff647284e44 UnrealEditor.exe!UnknownFunction []
+[2025.07.29-03.57.01:960][444]LogOutputDevice: Error: [Callstack] 0x00007ff6472880fa UnrealEditor.exe!UnknownFunction []
+[2025.07.29-03.57.01:960][444]LogOutputDevice: Error: [Callstack] 0x00007ffdec68e8d7 KERNEL32.DLL!UnknownFunction []
+[2025.07.29-03.57.01:960][444]LogOutputDevice: Error: [Callstack] 0x00007ffded41bf6c ntdll.dll!UnknownFunction []
+[2025.07.29-03.57.01:960][444]LogOutputDevice: Error: 
+[2025.07.29-03.57.01:961][444]LogStats:                SubmitErrorReport -  0.000 s
+[2025.07.29-03.57.04:227][444]LogStats:                    SendNewReport -  2.266 s
+[2025.07.29-03.57.04:227][444]LogStats:             FDebug::EnsureFailed -  2.408 s
+[2025.07.29-03.57.04:227][444]LogOutputDevice: Warning: 
+
+Script Stack (0 frames) :
+
+[2025.07.29-03.57.04:330][444]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.104 s
+[2025.07.29-03.57.04:330][444]LogOutputDevice: Error: === Handled ensure: ===
+[2025.07.29-03.57.04:330][444]LogOutputDevice: Error: 
+[2025.07.29-03.57.04:330][444]LogOutputDevice: Error: Ensure condition failed: false  [File:D:\build\++UE5\Sync\Engine\Source\Editor\SwarmInterface\Private\SwarmInterface.cpp] [Line: 568] 
+[2025.07.29-03.57.04:330][444]LogOutputDevice: Error: Error initializing Swarm interface.
+[2025.07.29-03.57.04:330][444]LogOutputDevice: Error: Stack: 
+[2025.07.29-03.57.04:330][444]LogOutputDevice: Error: [Callstack] 0x00007ffd8b0db17d UnrealEditor-SwarmInterface.dll!UnknownFunction []
+[2025.07.29-03.57.04:330][444]LogOutputDevice: Error: [Callstack] 0x00007ffd8b0d71d2 UnrealEditor-SwarmInterface.dll!UnknownFunction []
+[2025.07.29-03.57.04:330][444]LogOutputDevice: Error: [Callstack] 0x00007ffce47c15e1 UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2025.07.29-03.57.04:330][444]LogOutputDevice: Error: [Callstack] 0x00007ffce479a3b5 UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2025.07.29-03.57.04:330][444]LogOutputDevice: Error: [Callstack] 0x00007ffce47c2767 UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2025.07.29-03.57.04:330][444]LogOutputDevice: Error: [Callstack] 0x00007ffce479a81e UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2025.07.29-03.57.04:330][444]LogOutputDevice: Error: [Callstack] 0x00007ffce3cb1b5e UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2025.07.29-03.57.04:330][444]LogOutputDevice: Error: [Callstack] 0x00007ffcd871dc9e UnrealEditor-LevelEditor.dll!UnknownFunction []
+[2025.07.29-03.57.04:330][444]LogOutputDevice: Error: [Callstack] 0x00007ffcd8745f07 UnrealEditor-LevelEditor.dll!UnknownFunction []
+[2025.07.29-03.57.04:330][444]LogOutputDevice: Error: [Callstack] 0x00007ffd7d89d5c5 UnrealEditor-Slate.dll!UnknownFunction []
+[2025.07.29-03.57.04:330][444]LogOutputDevice: Error: [Callstack] 0x00007ffd7d89d741 UnrealEditor-Slate.dll!UnknownFunction []
+[2025.07.29-03.57.04:330][444]LogOutputDevice: Error: [Callstack] 0x00007ffd7d9c4fbd UnrealEditor-Slate.dll!UnknownFunction []
+[2025.07.29-03.57.04:330][444]LogOutputDevice: Error: [Callstack] 0x00007ffd7d9ca580 UnrealEditor-Slate.dll!UnknownFunction []
+[2025.07.29-03.57.04:330][444]LogOutputDevice: Error: [Callstack] 0x00007ffd7d99af1a UnrealEditor-Slate.dll!UnknownFunction []
+[2025.07.29-03.57.04:330][444]LogOutputDevice: Error: [Callstack] 0x00007ffd7da295fe UnrealEditor-Slate.dll!UnknownFunction []
+[2025.07.29-03.57.04:330][444]LogOutputDevice: Error: [Callstack] 0x00007ffd7da481c2 UnrealEditor-Slate.dll!UnknownFunction []
+[2025.07.29-03.57.04:330][444]LogOutputDevice: Error: [Callstack] 0x00007ffd7d9cce29 UnrealEditor-Slate.dll!UnknownFunction []
+[2025.07.29-03.57.04:330][444]LogOutputDevice: Error: [Callstack] 0x00007ffd7d7dbe6b UnrealEditor-Slate.dll!UnknownFunction []
+[2025.07.29-03.57.04:330][444]LogOutputDevice: Error: [Callstack] 0x00007ffd7d7c743d UnrealEditor-Slate.dll!UnknownFunction []
+[2025.07.29-03.57.04:330][444]LogOutputDevice: Error: [Callstack] 0x00007ffd7d821ec8 UnrealEditor-Slate.dll!UnknownFunction []
+[2025.07.29-03.57.04:330][444]LogOutputDevice: Error: [Callstack] 0x00007ffd7d8113bb UnrealEditor-Slate.dll!UnknownFunction []
+[2025.07.29-03.57.04:330][444]LogOutputDevice: Error: [Callstack] 0x00007ffd7d804091 UnrealEditor-Slate.dll!UnknownFunction []
+[2025.07.29-03.57.04:330][444]LogOutputDevice: Error: [Callstack] 0x00007ffda203f956 UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2025.07.29-03.57.04:330][444]LogOutputDevice: Error: [Callstack] 0x00007ffda2027137 UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2025.07.29-03.57.04:330][444]LogOutputDevice: Error: [Callstack] 0x00007ffda204299c UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2025.07.29-03.57.04:330][444]LogOutputDevice: Error: [Callstack] 0x00007ffda2021171 UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2025.07.29-03.57.04:330][444]LogOutputDevice: Error: [Callstack] 0x00007ffdec49b643 USER32.dll!UnknownFunction []
+[2025.07.29-03.57.04:330][444]LogOutputDevice: Error: [Callstack] 0x00007ffdec4991cd USER32.dll!UnknownFunction []
+[2025.07.29-03.57.04:330][444]LogOutputDevice: Error: [Callstack] 0x00007ffda2062316 UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2025.07.29-03.57.04:330][444]LogOutputDevice: Error: [Callstack] 0x00007ff64724871b UnrealEditor.exe!UnknownFunction []
+[2025.07.29-03.57.04:330][444]LogOutputDevice: Error: [Callstack] 0x00007ff64726e5ac UnrealEditor.exe!UnknownFunction []
+[2025.07.29-03.57.04:330][444]LogOutputDevice: Error: [Callstack] 0x00007ff64726e6ba UnrealEditor.exe!UnknownFunction []
+[2025.07.29-03.57.04:330][444]LogOutputDevice: Error: [Callstack] 0x00007ff64727209e UnrealEditor.exe!UnknownFunction []
+[2025.07.29-03.57.04:330][444]LogOutputDevice: Error: [Callstack] 0x00007ff647284e44 UnrealEditor.exe!UnknownFunction []
+[2025.07.29-03.57.04:330][444]LogOutputDevice: Error: [Callstack] 0x00007ff6472880fa UnrealEditor.exe!UnknownFunction []
+[2025.07.29-03.57.04:330][444]LogOutputDevice: Error: [Callstack] 0x00007ffdec68e8d7 KERNEL32.DLL!UnknownFunction []
+[2025.07.29-03.57.04:330][444]LogOutputDevice: Error: [Callstack] 0x00007ffded41bf6c ntdll.dll!UnknownFunction []
+[2025.07.29-03.57.04:330][444]LogOutputDevice: Error: 
